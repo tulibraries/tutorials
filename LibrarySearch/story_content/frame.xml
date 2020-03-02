@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11110100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111101111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
   <layouts>
-    <layout name="npnxnanbsnfns11110100101" font="Roboto" controllayout="npnxnanbsnfns11110100101" colorscheme="pxabnsnfns11110100101" string_table="pxabnsnfns11110100101" />
-    <layout name="pxabnsnfns11110100101" font="Roboto" controllayout="pxabnsnfns11110100101" colorscheme="pxabnsnfns11110100101" string_table="pxabnsnfns11110100101" />
-    <layout name="npxnabnsnfns11110100101" font="Roboto" controllayout="npxnabnsnfns11110100101" colorscheme="pxabnsnfns11110100101" string_table="pxabnsnfns11110100101" />
-    <layout name="npnxnanbnsnfns11110100101" font="Roboto" controllayout="npnxnanbnsnfns11110100101" colorscheme="pxabnsnfns11110100101" string_table="pxabnsnfns11110100101" />
-    <layout name="pxabnsnfns11110100100" font="Roboto" controllayout="pxabnsnfns11110100100" colorscheme="pxabnsnfns11110100101" string_table="pxabnsnfns11110100101" />
+    <layout name="npnxnanbsnfns11111101111" font="Roboto" controllayout="npnxnanbsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
+    <layout name="pxabnsnfns11111101111" font="Roboto" controllayout="pxabnsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
+    <layout name="npxnabnsnfns11111101111" font="Roboto" controllayout="npxnabnsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
+    <layout name="npnxnanbnsnfns11111101111" font="Roboto" controllayout="npnxnanbnsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
+    <layout name="pxabnsnfns11111101110" font="Roboto" controllayout="pxabnsnfns11111101110" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -18,8 +18,8 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\61h9mxvydja_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/5XNOxOKLuJK.png" />
+              <option name="logo_url" value="story_content\5qO8UZxksNT_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/6VKTMdzH4n3.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -31,9 +31,9 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="true" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
-              <listitem name="transcript" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
@@ -51,10 +51,10 @@
       <optiongroup name="menuoptions">
         <options>
           <option name="flow" value="free" />
-          <option name="wraplistitems" value="false" />
+          <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
-          <option name="autonumber" value="false" />
+          <option name="autonumber" value="true" />
           <option name="enableresultsicons" value="true" />
         </options>
       </optiongroup>
@@ -69,7 +69,7 @@
           </option>
           <option name="pauseplay" value="true" />
           <option name="replay" value="true" />
-          <option name="search" value="false" />
+          <option name="search" value="true" />
           <option name="closed_captions" value="true">
             <options>
               <option name="font" value="Roboto" />
@@ -92,7 +92,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11110100101">
+    <control_layout name="npnxnanbsnfns11111101111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -107,15 +107,15 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11110100101">
+    <control_layout name="pxabnsnfns11111101111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -130,15 +130,15 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11110100101">
+    <control_layout name="npxnabnsnfns11111101111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -153,15 +153,15 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11110100101">
+    <control_layout name="npnxnanbnsnfns11111101111">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -176,15 +176,15 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11110100100">
+    <control_layout name="pxabnsnfns11111101110">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -199,17 +199,17 @@
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
         <controls>
-          <control name="search" enabled="false" />
+          <control name="search" enabled="true" />
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns11110100101">
+    <colorscheme name="pxabnsnfns11111101111">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1219,7 +1219,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns11110100101">
+    <string_table name="pxabnsnfns11111101111">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1277,6 +1277,7 @@
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
+        <file bold="false" italic="false" />
       </files>
     </font>
   </fonts>
@@ -1284,53 +1285,552 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6QaecCxu5Qg" displaytext="Untitled Scene" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6QaecCxu5Qg.6LUPbdyrRzP" displaytext="Welcome" expand="false" type="slide" />
-            <slidelink slideid="_player.6QaecCxu5Qg.5dcpLaTH6w6" displaytext="Navigation Instructions" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6dr6IszPnrs" displaytext="View Scene" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6dr6IszPnrs.5s8kQOfcKi0" displaytext="Libraries Homepage" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6kqHqKuoQqq" displaytext="Library Search" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6MQcO7LJoLx" displaytext="All results page" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6ftBK7HV9wN" displaytext="Books &amp; Media results" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.65wB552khS1" displaytext="Filtering Options" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5y4CatD6RLk" displaytext="Access Options" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.60gHNi9I1wE" displaytext="Stacks (4th floor)" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6CEB0lPvMV8" displaytext="Stacks (4th floor)" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6i1SNXxSdik" displaytext="Remote storage or alternate campus" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5mbtMy5Pgos" displaytext="Remote storage or alternate campus" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.612WhA4lFAc" displaytext="Charles BookBot" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6cVN9HVDS39" displaytext="Charles BookBot" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6DIvug2m5bm" displaytext="Online" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.61To4qUyw0k" displaytext="Online" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5tITnLGcriM" displaytext="Online resource access" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6YOz8vvGCo2" displaytext="Additional resources from Libraries homepage" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5z3DE02NX3x" displaytext="Databases" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6Q0cvRmDmpI" displaytext="Searching for a database" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6fYMLVXGDwK" displaytext="Sample database: Academic Search Complete" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.69tqEw48CCW" displaytext="Sample database: Academic Search Complete" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5jKtd4u0w1d" displaytext="Searching for a database" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5d1fwU9kqlY" displaytext="Research Guides" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5VyQ4H2ixdE" displaytext="Find a Guide" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6NNdgf1ASYT" displaytext="Sources for Courses" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5aavB8d0MCn" displaytext="Library Resources in Canvas" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6FS4P5VFGNt" displaytext="Additional Resources on Libraries Homepage" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6e1wvdpBhfS" displaytext="Contact Us" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.6epWjYHw2cF" displaytext="Search FAQs" expand="false" type="slide" />
-            <slidelink slideid="_player.6dr6IszPnrs.5yIII3SQd6p" displaytext="Thank you" expand="false" type="slide" />
-          </links>
-        </slidelink>
+        <slidelink slideid="_player.6QaecCxu5Qg.6LUPbdyrRzP" displaytext="Welcome" expand="false" type="slide" />
+        <slidelink slideid="_player.6QaecCxu5Qg.5dcpLaTH6w6" displaytext="Navigation Instructions" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5s8kQOfcKi0" displaytext="Libraries Homepage" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6kqHqKuoQqq" displaytext="Library Search" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6MQcO7LJoLx" displaytext="All results page" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6ftBK7HV9wN" displaytext="Books &amp; Media results" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.65wB552khS1" displaytext="Filtering Options" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5y4CatD6RLk" displaytext="Access Options" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6CEB0lPvMV8" displaytext="Stacks (4th floor)" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5mbtMy5Pgos" displaytext="Remote storage or alternate campus" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6cVN9HVDS39" displaytext="Charles BookBot" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.61To4qUyw0k" displaytext="Online" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5tITnLGcriM" displaytext="Online resource access" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6YOz8vvGCo2" displaytext="Additional resources from Libraries homepage" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5z3DE02NX3x" displaytext="Databases" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6Q0cvRmDmpI" displaytext="Searching for a database" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6fYMLVXGDwK" displaytext="Sample database: Academic Search Complete" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.69tqEw48CCW" displaytext="Sample database: Academic Search Complete" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5jKtd4u0w1d" displaytext="Searching for a database" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5d1fwU9kqlY" displaytext="Research Guides" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5VyQ4H2ixdE" displaytext="Find a Guide" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6NNdgf1ASYT" displaytext="Sources for Courses" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5aavB8d0MCn" displaytext="Library Resources in Canvas" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6FS4P5VFGNt" displaytext="Additional Resources on Libraries Homepage" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6e1wvdpBhfS" displaytext="Contact Us" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.6epWjYHw2cF" displaytext="Search FAQs" expand="false" type="slide" />
+        <slidelink slideid="_player.6dr6IszPnrs.5yIII3SQd6p" displaytext="Thank you" expand="false" type="slide" />
       </links>
     </outline>
+    <search>
+      <slidetext slideid="6QaecCxu5Qg.6LUPbdyrRzP" slidebank="false" type="slide">  welcome to temple university libraries! this brief tutorial highlights several useful resources on the temple university libraries website, including: library search and other databases research guides ways to get help  upon completion, you will be able to do the following: identify the library search and filter search results select an appropriate database get additional help, in-person or online    </slidetext>
+      <slidetext slideid="6QaecCxu5Qg.5dcpLaTH6w6" slidebank="false" type="slide">use the player controls to: adjust the audio; turn on or off closed captioning; pause, play, seek, or restart slide; and move to next or previous slides. in addition to using the &lt; prev and next &gt;  buttons, you can navigate between slides using the left and right keyboard arrows. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5s8kQOfcKi0" slidebank="false" type="slide">in the center of the page is our catalog, the library search. ﻿you can use this search to find books, articles, videos, and more. you can search by title, author, or keyword.  note that the page layout varies on mobile.  </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6kqHqKuoQqq" slidebank="false" type="slide"> we will search everything using the keywords “global warming”.</slidetext>
+      <slidetext slideid="6dr6IszPnrs.6MQcO7LJoLx" slidebank="false" type="slide">  the first results page brings you to a list of all materials pertaining to your subject, organized by resource type: books &amp; media, articles, databases, journals, and website. from here, you can either click on a single entry, or view all results for a specific resource type. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6ftBK7HV9wN" slidebank="false" type="slide">selecting a resource type, such as books &amp; media, takes you to a second results page. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.65wB552khS1" slidebank="false" type="slide">from here, you have a few ways of filtering your results even more. you can limit results by availability, date, author, and more. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5y4CatD6RLk" slidebank="false" type="slide">results can be accessed from one of the following: stacks (4th floor) remote storage or another campus bookbot online</slidetext>
+      <slidetext slideid="6dr6IszPnrs.6CEB0lPvMV8" slidebank="false" type="slide">first, ﻿an item may be available at “stacks (4th floor)” with an associated call number. these items are freely available on the fourth floor of charles library. use the call number listed to locate the item on the shelf, and checkout at the one stop assistance desk or using a self-checkout (located on the first and fourth floors). please note that these items cannot be requested online if you are requesting from main campus. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5mbtMy5Pgos" slidebank="false" type="slide">  some items are available at another campus library or storage location. if this is the case, use the “request” button to have the item sent to your campus library.  </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6cVN9HVDS39" slidebank="false" type="slide">most books will be located in the bookbot. use the request button to have the item pulled for you. you will be notified by email when your item is ready for pickup. requests sent to charles library will be ready for pickup in about 20 minutes and held on the shelves behind the one stop assistance desk.  </slidetext>
+      <slidetext slideid="6dr6IszPnrs.61To4qUyw0k" slidebank="false" type="slide">some books and most articles will have a link to an online version. under “availability” use any of the links under “online” to reach a pdf or html text version. note that the resource will open in a new browser tab. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5tITnLGcriM" slidebank="false" type="slide">the online resource loads in a new tab, where you can view additional details and access the full text. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6YOz8vvGCo2" slidebank="false" type="slide">additional resources can be found from the libraries homepage. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5z3DE02NX3x" slidebank="false" type="slide"> besides the library search function, you are also able to search for articles using the databases tab on the left-hand side of the homepage. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6Q0cvRmDmpI" slidebank="false" type="slide"> the databases tab can be used to search for specific databases, or to browse either alphabetically or by subject.</slidetext>
+      <slidetext slideid="6dr6IszPnrs.5jKtd4u0w1d" slidebank="false" type="slide">by default, databases are listed alphabetically. select the “all subjects” drop-down to filter by subject. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6fYMLVXGDwK" slidebank="false" type="slide">let’s select the database academic search complete. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.69tqEw48CCW" slidebank="false" type="slide">academic search complete will open in a new tab, and then you can search for articles by keyword.  note: databases may have their own layout and design, but most will have the same filtering and access options.</slidetext>
+      <slidetext slideid="6dr6IszPnrs.5d1fwU9kqlY" slidebank="false" type="slide"> if you are ever stuck or confused, the library offers a variety of helpful guides. you can access these from the homepage by clicking on the “research guides” tab on the left-hand side of the page.  </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5VyQ4H2ixdE" slidebank="false" type="slide">from here, you can search by keyword, or browse by course or subject.   </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6NNdgf1ASYT" slidebank="false" type="slide">our "sources for courses" guides provide you with the necessary materials and research strategies required for a specific class. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5aavB8d0MCn" slidebank="false" type="slide">note that course-specific guides can also be accessed from the library link on your course canvas page. if your course does not have a course-specific guide, a general guide highlighting library resources will be available instead. </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6FS4P5VFGNt" slidebank="false" type="slide">additional information about the library can be found throughout the website. there are multiple tabs at the top of the homepage, as well as large buttons below the library search, that provide further links and information once you click on them.   </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6e1wvdpBhfS" slidebank="false" type="slide">if you have more questions, the “contact us” tab provides you with multiple options. from here, you can live chat with a librarian in real time, make an appointment with a librarian, email, text, or call us.  </slidetext>
+      <slidetext slideid="6dr6IszPnrs.6epWjYHw2cF" slidebank="false" type="slide"> the "search faqs" link at the bottom of the page is another place to search for answers to common questions.  </slidetext>
+      <slidetext slideid="6dr6IszPnrs.5yIII3SQd6p" slidebank="false" type="slide">feel free to explore the website yourself and contact us with any questions. please give us your feedback on this tutorial by filling out the form here. please share your feedback with us on this tutorial. click here to open the feedback form.</slidetext>
+    </search>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Roboto' style='font-size: 11px;' size='11' color='#B4B4B4'&gt;Click here to download the full transcript:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Library Search Tutorial Transcript.docx" image="story_content/6mL66jb0DA4.png" title="Library Search Tutorial Transcript" />
+      <resource url="http://library.temple.edu" image="story_content/url.png" title="Temple Universty Libraries Website" />
+      <resource url="story_content/external_files/Library Search Tutorial Transcript.docx" image="story_content/5hVsYFVei7Z.png" title="Transcript" />
     </resources>
   </resource_data>
-  <transcript_data />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6QaecCxu5Qg.6LUPbdyrRzP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This brief tutorial highlights several useful resources on the Temple University Libraries website, including:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Library Search and other databases;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Research guides; and&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Ways to get help.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Upon completion, you will be able to do the following:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Identify the Library Search and filter search results;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Select an appropriate database; and&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Get additional help, in-person or online."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6QaecCxu5Qg.5dcpLaTH6w6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use the player controls to: adjust the audio; turn on or off closed captioning; pause, play, seek, or restart slide; and move to next or previous slides.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In addition to using the &amp;lt; PREV and NEXT &amp;gt;  buttons, you can navigate between slides using the left and right keyboard arrows."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5s8kQOfcKi0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In the center of the page is our catalog, the Library Search. ﻿You can use this search to find books, articles, videos, and more. You can search by title, author, or keyword. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Note that the page layout varies on mobile. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6kqHqKuoQqq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We will "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Search everything "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="using the keywords “global warming.”"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6MQcO7LJoLx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The first results page brings you to a list of all materials pertaining to your subject, organized by resource type: Books &amp;amp; Media, Articles, Databases, Journals, and Website. From here, you can either click on a single entry, or view all results for a specific resource type."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6ftBK7HV9wN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Selecting a resource type, such as Books &amp;amp; Media, takes you to a second results page. "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.65wB552khS1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="From here, you have a few ways of filtering your results even more. You can limit results by availability, date, author, and more."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5y4CatD6RLk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000,00" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Results can be accessed from one of the following:&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Stacks (4th floor);&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Remote Storage or alternate campus;&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="BookBot; or&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Online."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6CEB0lPvMV8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="First, ﻿an item may be available at “Stacks (4th floor)” with an associated call number. These items are freely available on the fourth floor of Charles Library. Use the call number listed to locate the item on the shelf, and checkout at the One Stop Assistance desk or using a self-checkout (located on the first and fourth floors). Please note that these items cannot be requested online if you are requesting from main campus."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" BackgroundColor="#000000,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5mbtMy5Pgos" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Some items are available at another campus library or storage location. If this is the case, use the “Request” button to have the item sent to your campus library."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6cVN9HVDS39" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Most books will be located in the BookBot. Use the Request button to have the item pulled for you. You will be notified by email when your item is ready for pickup. Requests sent to Charles Library will be ready for pickup in about 20 minutes and held on the shelves behind the One Stop Assistance desk."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.61To4qUyw0k" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Some books and most articles will have a link to an online version.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Under “availability” use any of the links under “online” to reach a PDF or HTML text version. Note that the resource will open in a new browser tab."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5tITnLGcriM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The online resource loads in a new tab, where you can view additional details and access the full text."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6YOz8vvGCo2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Additional resources can be found from the Libraries homepage."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5z3DE02NX3x" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Besides the Library Search function, you are also able to search for articles using the databases tab on the left-hand side of the homepage."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6Q0cvRmDmpI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The databases tab can be used to search for specific databases, or to browse either alphabetically or by subject."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5jKtd4u0w1d" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By default, databases are listed alphabetically. Select the “All Subjects” drop-down to filter by subject."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6fYMLVXGDwK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s select the database Academic Search Complete."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.69tqEw48CCW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Academic Search Complete will open in a new tab, and then you can search for articles by keyword. &amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Note: Databases may have their own layout and design, but most will have the same filtering and access options."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5d1fwU9kqlY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you are ever stuck or confused, the library offers a variety of helpful guides. You can access these from the homepage by clicking on the “Research Guides” tab on the left-hand side of the page."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5VyQ4H2ixdE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="From here, you can search by keyword, or browse by course or subject."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6NNdgf1ASYT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Our &amp;quot;Sources for Courses&amp;quot; guides can provide you with the necessary materials and research strategies required for a specific class."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5aavB8d0MCn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Note that course-specific guides can also be accessed from the Library link on your course Canvas page. If your course does not have a course-specific guide, a general guide highlighting library resources will be available instead."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6FS4P5VFGNt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Additional information about the library can be found throughout the website. There are multiple tabs at the top of the homepage, as well as large buttons below the Library Search, that provide further links and information once you click on them."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6e1wvdpBhfS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you have more questions, the “Contact Us” tab provides you with multiple options. From here, you can live chat with a librarian in real time, make an appointment with a librarian, email, text, or call us."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.6epWjYHw2cF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The &amp;quot;Search FAQs&amp;quot; link at the bottom of the page is another place to search for answers to common questions."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6dr6IszPnrs.5yIII3SQd6p" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000,00" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Thank you for visiting! Feel free to explore the website yourself and contact us with any questions.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000,00" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please share your feedback with us on this tutorial. Click "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="here"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="True" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" to open the feedback form."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
   <glossary_data />
 </bwFrame>
