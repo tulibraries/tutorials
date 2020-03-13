@@ -6,7 +6,7 @@
     <layout name="npxnabnsnfns11111100001" font="Calibri" controllayout="npxnabnsnfns11111100001" colorscheme="npxnabnsnfns11111100001" string_table="npxnabnsnfns11111100001" />
     <layout name="npnxnanbnsnfns11111100001" font="Calibri" controllayout="npnxnanbnsnfns11111100001" colorscheme="npxnabnsnfns11111100001" string_table="npxnabnsnfns11111100001" />
     <layout name="pxabnsnfns11111100000" font="Calibri" controllayout="pxabnsnfns11111100000" colorscheme="npxnabnsnfns11111100001" string_table="npxnabnsnfns11111100001" />
-    <layout name="pnxanbsnfns11111100001" font="Calibri" controllayout="pnxanbsnfns11111100001" colorscheme="npxnabnsnfns11111100001" string_table="npxnabnsnfns11111100001" />
+    <layout name="pnxanbnsnfns11111100001" font="Calibri" controllayout="pnxanbnsnfns11111100001" colorscheme="npxnabnsnfns11111100001" string_table="npxnabnsnfns11111100001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -25,7 +25,7 @@
                   <property name="height" value="326" />
                 </properties>
               </option>
-              <option name="html5_logo_url" value="mobile/6dggtLQbvaR.png" />
+              <option name="html5_logo_url" value="mobile/6UJkmbsXVh0.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -213,7 +213,7 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbsnfns11111100001">
+    <control_layout name="pnxanbnsnfns11111100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -223,7 +223,7 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="true" />
+      <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="true" />
@@ -1242,18 +1242,18 @@
             <slidelink slideid="_player.6LOvKRAy0P9.6UIGgErZwuf" displaytext="Picking Your Topic is Research" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.6p25kpIHCKd" displaytext="Define Your Topic" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.64xf9vb7LxT" displaytext="Define Your Topic" expand="false" type="slide" />
-            <slidelink slideid="_player.6LOvKRAy0P9.5cuthdBSrTz" displaytext="Use a Database" expand="false" type="slide" />
-            <slidelink slideid="_player.6LOvKRAy0P9.6TUkznSnOH9" displaytext="Ask a Question" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOvKRAy0P9.65c4P8ZDaIN" displaytext="Expand on Keywords" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.6D2oELEPl3C" displaytext="Ask a Question" expand="false" type="slide" />
-            <slidelink slideid="_player.6LOvKRAy0P9.6OVanuhbeNe" displaytext="Find Search Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOvKRAy0P9.6TUkznSnOH9" displaytext="Ask a Question" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.6HDewbHNkpK" displaytext="Find Search Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOvKRAy0P9.6OVanuhbeNe" displaytext="Find Search Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOvKRAy0P9.6LmqOzNlMki" displaytext="Find Search Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOvKRAy0P9.5cuthdBSrTz" displaytext="Use a Database" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.64qkYAl5lXw" displaytext="Find Your Search Terms" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.6nPaEHKREgj" displaytext="Workshop Recap" expand="false" type="slide" />
-            <slidelink slideid="_player.6LOvKRAy0P9.6P7TseTEOKM" displaytext="Contact Us" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.5z3BzkOPZ0t" displaytext="Feedback" expand="false" type="slide" />
+            <slidelink slideid="_player.6LOvKRAy0P9.6P7TseTEOKM" displaytext="Contact Us" expand="false" type="slide" />
             <slidelink slideid="_player.6LOvKRAy0P9.6KLBZMkRNn6" displaytext="Thank you!" expand="false" type="slide" />
-            <slidelink slideid="_player.6LOvKRAy0P9.65c4P8ZDaIN" displaytext="Expand on Keywords" expand="false" type="slide" />
-            <slidelink slideid="_player.6LOvKRAy0P9.6LmqOzNlMki" displaytext="Find Search Terms" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
