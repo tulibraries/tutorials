@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns11111101111" font="Roboto" controllayout="npxnabnsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
     <layout name="npnxnanbnsnfns11111101111" font="Roboto" controllayout="npnxnanbnsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
     <layout name="pxabnsnfns11111101110" font="Roboto" controllayout="pxabnsnfns11111101110" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
+    <layout name="pnxanbsnfns11111101111" font="Roboto" controllayout="pnxanbsnfns11111101111" colorscheme="pxabnsnfns11111101111" string_table="pxabnsnfns11111101111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,13 +14,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Library Search Tutorial" />
+              <option name="title_text" value="Using the Library Website" />
             </options>
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\5qO8UZxksNT_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/6VKTMdzH4n3.png" />
+              <option name="logo_url" value="story_content\6JTwFXn1Ey6_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/6lgD8FaGdWi.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -206,6 +207,29 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbsnfns11111101111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1235,6 +1259,11 @@
       <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
       <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="next">NEXT</string>
@@ -1347,7 +1376,7 @@
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Roboto' style='font-size: 11px;' size='11' color='#B4B4B4'&gt;Click here to download the full transcript:&lt;/font&gt;&lt;/p&gt;">
     <resources>
       <resource url="http://library.temple.edu" image="story_content/url.png" title="Temple Universty Libraries Website" />
-      <resource url="story_content/external_files/Library Search Tutorial Transcript.docx" image="story_content/5hVsYFVei7Z.png" title="Transcript" />
+      <resource url="story_content/external_files/Library Search Tutorial Transcript.docx" image="story_content/68r7EnH4004.png" title="Transcript" />
     </resources>
   </resource_data>
   <transcript_data>
