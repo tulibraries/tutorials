@@ -19,13 +19,13 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\5jeHVZGFg29_DX1024_DY1024.swf" />
+              <option name="logo_url" value="story_content\61UTfOzBYgP_DX1024_DY1024.swf" />
               <option name="html5_logo_url" value="mobile/5V6T1jMuZxj.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
-              <option name="sidebarpos" value="left" />
+              <option name="sidebarpos" value="right" />
               <option name="closed" value="false" />
             </options>
           </option>
