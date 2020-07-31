@@ -19,13 +19,13 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\6HgVMg1JgqV_DX1024_DY1024.swf" />
+              <option name="logo_url" value="story_content\5jeHVZGFg29_DX1024_DY1024.swf" />
               <option name="html5_logo_url" value="mobile/5V6T1jMuZxj.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
-              <option name="sidebarpos" value="right" />
+              <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
             </options>
           </option>
@@ -1411,6 +1411,7 @@
       <slidetranscript slideid="6Q185H3LjzU.6bTaFz8IxM7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Thank you!" /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
