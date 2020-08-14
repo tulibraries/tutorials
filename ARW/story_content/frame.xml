@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111101001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111101101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns11111101001" font="Calibri" controllayout="npnxnanbsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="pxabnsnfns11111101001" font="Calibri" controllayout="pxabnsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="npxnabnsnfns11111101001" font="Calibri" controllayout="npxnabnsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="npnxnanbnsnfns11111101001" font="Calibri" controllayout="npnxnanbnsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="pxabnsnfns11111101000" font="Calibri" controllayout="pxabnsnfns11111101000" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="pnxanbsnfns11111101001" font="Calibri" controllayout="pnxanbsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
+    <layout name="npnxnanbsnfns11111101101" font="Calibri" controllayout="npnxnanbsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101101" font="Calibri" controllayout="pxabnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="npxnabnsnfns11111101101" font="Calibri" controllayout="npxnabnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="npnxnanbnsnfns11111101101" font="Calibri" controllayout="npnxnanbnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101100" font="Calibri" controllayout="pxabnsnfns11111101100" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pnxanbsnfns11111101101" font="Calibri" controllayout="pnxanbsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,13 +14,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Analytical Reading &amp; Writing" />
+              <option name="title_text" value="Analytical Reading &amp; Writing Module 1" />
             </options>
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\6Wr4dNyhKFb_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/5d4jN06ntOf.png" />
+              <option name="logo_url" value="story_content\619C9e4H7AY_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/6KWKj2S283u.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -61,7 +61,7 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="false" />
+          <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
               <option name="readonly" value="true" />
@@ -71,7 +71,7 @@
           <option name="pauseplay" value="true" />
           <option name="replay" value="true" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="false">
+          <option name="closed_captions" value="true">
             <options>
               <option name="font" value="Calibri" />
             </options>
@@ -93,8 +93,8 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11111101001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbsnfns11111101101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
@@ -116,8 +116,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111101001">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns11111101101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
@@ -139,8 +139,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11111101001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npxnabnsnfns11111101101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
@@ -162,8 +162,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11111101001">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbnsnfns11111101101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
@@ -185,8 +185,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111101000">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns11111101100">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
@@ -208,8 +208,8 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbsnfns11111101001">
-      <control name="volume" enabled="false" />
+    <control_layout name="pnxanbsnfns11111101101">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
@@ -233,7 +233,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns11111101001">
+    <colorscheme name="npxnabnsnfns11111101101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1150,7 +1150,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns11111101001">
+    <string_table name="npxnabnsnfns11111101101">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1166,6 +1166,11 @@
       <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
       <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="next">NEXT</string>
@@ -1232,7 +1237,7 @@
         <slidelink slideid="_player.6Lrk7BIwgt7.6pVCKzPd9Wi" displaytext="When breaking news happens, where do you go to find information?" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6kvo0JogMXz" displaytext="Where did you get your news last week?" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6a06zMo42nd" displaytext="Understanding Sources" expand="false" type="slide" />
-        <slidelink slideid="_player.6Lrk7BIwgt7.6NZl9hTNDsn" displaytext="Information Timeline" expand="false" type="slide" />
+        <slidelink slideid="_player.6Lrk7BIwgt7.60cDFGNJA8M" displaytext="Information Timeline" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6DtZjiIr1ji" displaytext="Source Aspects and Types" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6A5EnSaa2Oi" displaytext="Aspects to Consider When Reviewing a Source" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6Fp8i7ExtbM" displaytext="Identifying Source Type" expand="false" type="slide" />
@@ -1247,7 +1252,7 @@
         <slidelink slideid="_player.6Lrk7BIwgt7.6lHNJCcAO3l" displaytext="Library Website" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6KJPP1Bkguk" displaytext="Research Process" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.5mQNVWeFjA3" displaytext="The Linear Research Process" expand="false" type="slide" />
-        <slidelink slideid="_player.6Lrk7BIwgt7.619bWYUE61I" displaytext="The Iterative Research Process" expand="false" type="slide" />
+        <slidelink slideid="_player.6Lrk7BIwgt7.6RZDo6dVXSX" displaytext="The Iterative Research Process" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.63rV665uS7M" displaytext="Research Process" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.5hCX5Cd9qqI" displaytext="Picking Your Topic is Research" expand="false" type="slide" />
         <slidelink slideid="_player.6Lrk7BIwgt7.6poeNPu5gsG" displaytext="Knowledge Check" expand="false" type="slide" />
@@ -1264,10 +1269,10 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Calibri' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/Source_Academic Journal.pdf" image="story_content/69P1vQLdq4D.png" title="Academic Journal Source Sample" />
-      <resource url="story_content/external_files/Source_Book Chapter.pdf" image="story_content/6G9uwjx5AyP.png" title="Book Chapter Source Sample" />
-      <resource url="story_content/external_files/Source_Newspaper-Magazine.pdf" image="story_content/5Z1yFQN1Df3.png" title="Newspaper/Magazine Source Sample" />
-      <resource url="story_content/external_files/Source_Encyclopedia.pdf" image="story_content/6Z4TIJXxSjm.png" title="Encyclopedia Source Sample" />
+      <resource url="story_content/external_files/Source_Academic Journal.pdf" image="story_content/66f3dMnPS5J.png" title="Academic Journal Source Sample" />
+      <resource url="story_content/external_files/Source_Book Chapter.pdf" image="story_content/5WnjlR4iMV6.png" title="Book Chapter Source Sample" />
+      <resource url="story_content/external_files/Source_Newspaper-Magazine.pdf" image="story_content/6gs6cXiGrtC.png" title="Newspaper/Magazine Source Sample" />
+      <resource url="story_content/external_files/Source_Encyclopedia.pdf" image="story_content/5rCqn8uEkJ5.png" title="Encyclopedia Source Sample" />
       <resource url="http://bit.ly/blm003" image="story_content/url.png" title="Web Source/Scholarly Blog Sample" />
     </resources>
   </resource_data>
@@ -1355,35 +1360,40 @@
       <slidetranscript slideid="6Lrk7BIwgt7.6a06zMo42nd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="When you’re asked to use outside sources in a paper, it can be difficult to figure out where to find sources and whether they are appropriate for academic research.&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="To begin, it may be helpful to think about the variety of source types you might use, and which you’re likely to find based on the nature of your topic.&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Let’s walk through the Information Timeline. Click each tab to the right to learn more." /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Lrk7BIwgt7.6NZl9hTNDsn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6Lrk7BIwgt7.60cDFGNJA8M" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="Now that we’ve reviewed a variety of sources, watch the following video to see how the sources fit into the information life cycle. " /&gt;
+      &lt;Span Text="Now that we’ve reviewed a variety of sources, watch the following video to see how the sources fit into the information life cycle. Select the “Resources” tab to download the video transcript. " /&gt;
       &lt;Span Text="&amp;#xA;"&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
       &lt;Span Text="&amp;#xA;"&gt;
@@ -1391,10 +1401,18 @@
       &lt;/Span&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="https://vimeo.com/175421451"&gt;
+      &lt;Span Text="Access the video at https://vimeo.com/175421451.&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -1692,7 +1710,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Lrk7BIwgt7.619bWYUE61I" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6Lrk7BIwgt7.6RZDo6dVXSX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="Although the research process is often described as linear, "&gt;

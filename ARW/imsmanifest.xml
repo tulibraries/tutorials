@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none">Analytical Reading &amp; Writing</langstring>
+          <langstring xml:lang="x-none">Analytical Reading &amp; Writing Module 1</langstring>
         </title>
       </general>
       <lifecycle>
@@ -50,11 +50,11 @@
       </rights>
     </lom>
   </metadata>
-  <organizations default="Analytical_Reading_&amp;_Writing_ORG">
-    <organization identifier="Analytical_Reading_&amp;_Writing_ORG">
-      <title>Analytical Reading &amp; Writing</title>
+  <organizations default="Analytical_Reading_&amp;_Writing_Module_1_ORG">
+    <organization identifier="Analytical_Reading_&amp;_Writing_Module_1_ORG">
+      <title>Analytical Reading &amp; Writing Module 1</title>
       <item identifier="ENG802_SCO" isvisible="true" identifierref="__5X2duH6NPzO_course_id_RES">
-        <title>Analytical Reading &amp; Writing</title>
+        <title>Analytical Reading &amp; Writing Module 1</title>
       </item>
     </organization>
   </organizations>
@@ -97,9 +97,10 @@
       <file href="mobile/6B5iZKd8O8D_80_DX62_DY62_CX39_CY51.png" />
       <file href="mobile/66gISllUeXY_80_DX60_DY60_CX51_CY35.png" />
       <file href="mobile/5y5iFy9jV6C_80_DX62_DY62_CX51_CY48.png" />
-      <file href="story_content/6DkQtHde0s6.html" />
-      <file href="mobile/6DkQtHde0s66a4PA9vtfnT{Width=513.3888, Height=288.7812}Light_80_DX1026_DY1026_CX513_CY289.jpg" />
       <file href="mobile/5UkqawDO5cp_80_DX176_DY176_CX88_CY31.png" />
+      <file href="story_content/video_6reG6Jkqdjr_22_48_506x286.mp4" />
+      <file href="story_content/5sHjX9HAVkN_captions.js" />
+      <file href="mobile/poster_5sHjX9HAVkN_video_6reG6Jkqdjr_22_48_506x286.jpg" />
       <file href="mobile/6kqKjM5Vasr_80_R141413_DX122_DY122_CX128_CY128.jpg" />
       <file href="mobile/6AAbRcRaFah_80_Q2899197_P_0_43_2048_1186_DX1400_DY1400_CX1466_CY849.png" />
       <file href="mobile/6ZaXgSGEyag_80_P_0_241_589_416_DX464_DY464_CX335_CY237.png" />
@@ -197,11 +198,11 @@
       <file href="mobile/66oGuIBWXdn_80_DX170_DY170_CX178_CY178.png" />
       <file href="mobile/6GxzNCpiJop_80_P_0_0_2048_1177_DX1410_DY1410_CX1477_CY849.png" />
       <file href="meta.xml" />
-      <file href="mobile/5d4jN06ntOf.png" />
-      <file href="story_content/69P1vQLdq4D.png" />
-      <file href="story_content/6G9uwjx5AyP.png" />
-      <file href="story_content/5Z1yFQN1Df3.png" />
-      <file href="story_content/6Z4TIJXxSjm.png" />
+      <file href="mobile/6KWKj2S283u.png" />
+      <file href="story_content/66f3dMnPS5J.png" />
+      <file href="story_content/5WnjlR4iMV6.png" />
+      <file href="story_content/6gs6cXiGrtC.png" />
+      <file href="story_content/5rCqn8uEkJ5.png" />
       <file href="story_content/url.png" />
       <file href="story_content/user.js" />
       <file href="story_content/external_files/Source_Academic Journal.pdf" />
@@ -232,27 +233,27 @@
       <file href="mobile/txt__default_5fUf8QOaXoR.png" />
       <file href="mobile/txt__default_6Iujt4nJsiq.png" />
       <file href="mobile/txt__default_6lKuCUaeF6c.png" />
-      <file href="mobile/txt__default_5o4FKCLPHpc.png" />
-      <file href="mobile/txt__default_5u9FQvi72dx.png" />
-      <file href="mobile/txt__default_5mNYt9kKw6G.png" />
-      <file href="mobile/txt__default_6kUKsN3eKP8.png" />
-      <file href="mobile/txt__default_5igx2zgcQZ4.png" />
-      <file href="mobile/txt__default_6a1rfB4BdHa.png" />
-      <file href="mobile/txt__default_69egXJwH5bL.png" />
-      <file href="mobile/txt__default_6dHVpY9UN1W.png" />
-      <file href="mobile/txt__default_5XEKQ6HIDui.png" />
-      <file href="mobile/txt__default_6kF5XtGNnWt.png" />
-      <file href="mobile/txt__default_610tjdH0rME.png" />
-      <file href="mobile/txt__default_5vKDMQwNCjm.png" />
-      <file href="mobile/txt__default_6m3B3Nsumai.png" />
-      <file href="mobile/txt__default_5ct8z4Np3He.png" />
-      <file href="mobile/txt__default_5YRrZPa0dR5.png" />
-      <file href="mobile/txt__default_5jdPaol9doI.png" />
-      <file href="mobile/txt__default_5a03a08CBXC.png" />
-      <file href="mobile/txt__default_6eOOnjhOV97.png" />
-      <file href="mobile/txt__default_6QVp9hYzpab.png" />
-      <file href="mobile/txt__default_5jWmrSpfYjJ.png" />
-      <file href="mobile/txt__default_5p0Vi9gzB11.png" />
+      <file href="mobile/txt__default_6qZswE6AyGt.png" />
+      <file href="mobile/txt__default_6CXWenJAO6h.png" />
+      <file href="mobile/txt__default_5nM6GVVV0hJ.png" />
+      <file href="mobile/txt__default_67HvblROxxB.png" />
+      <file href="mobile/txt__default_69e2uuvWUGc.png" />
+      <file href="mobile/txt__default_6JVmVEwaZSW.png" />
+      <file href="mobile/txt__default_6Jr4uEtnL6J.png" />
+      <file href="mobile/txt__default_69zELpM7MKg.png" />
+      <file href="mobile/txt__default_5dGO7PrZLor.png" />
+      <file href="mobile/txt__default_6oLLx6mr3ss.png" />
+      <file href="mobile/txt__default_5tpZ6ltPXze.png" />
+      <file href="mobile/txt__default_6TjVon57EsS.png" />
+      <file href="mobile/txt__default_6DfUmuMeSiv.png" />
+      <file href="mobile/txt__default_6L6q4xwMsH6.png" />
+      <file href="mobile/txt__default_5zxhIlCZ2Eh.png" />
+      <file href="mobile/txt__default_6iizuZ67o8I.png" />
+      <file href="mobile/txt__default_6UKO9aT5eh9.png" />
+      <file href="mobile/txt__default_5hW9JMuxz6w.png" />
+      <file href="mobile/txt__default_6UXskAh5glY.png" />
+      <file href="mobile/txt__default_6EC5rSItJCX.png" />
+      <file href="mobile/txt__default_6JTOwnstKXq.png" />
       <file href="mobile/txt__default_6BwCfVOVNDn.png" />
       <file href="mobile/txt__default_6LuOPkS1X4q.png" />
       <file href="mobile/txt__default_69wsTDlFo1K.png" />
@@ -273,7 +274,7 @@
       <file href="html5/data/js/5VPBFQ9QVS1.js" />
       <file href="html5/data/js/5xdzAAcUPow.js" />
       <file href="html5/data/js/5xPVDq3BFTa.js" />
-      <file href="html5/data/js/619bWYUE61I.js" />
+      <file href="html5/data/js/60cDFGNJA8M.js" />
       <file href="html5/data/js/63rV665uS7M.js" />
       <file href="html5/data/js/65GSBiJJ1H5.js" />
       <file href="html5/data/js/66YU8MOATek.js" />
@@ -292,9 +293,9 @@
       <file href="html5/data/js/6KJPP1Bkguk.js" />
       <file href="html5/data/js/6kvo0JogMXz.js" />
       <file href="html5/data/js/6lHNJCcAO3l.js" />
-      <file href="html5/data/js/6NZl9hTNDsn.js" />
       <file href="html5/data/js/6poeNPu5gsG.js" />
       <file href="html5/data/js/6pVCKzPd9Wi.js" />
+      <file href="html5/data/js/6RZDo6dVXSX.js" />
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
@@ -311,19 +312,10 @@
       <file href="story.html" />
       <file href="index_lms.html" />
       <file href="lms/AICCComm.html" />
-      <file href="lms/AICCFunctions.js" />
-      <file href="lms/API.js" />
-      <file href="lms/APIConstants.js" />
       <file href="lms/blank.html" />
       <file href="lms/browsersniff.js" />
-      <file href="lms/Configuration.js" />
       <file href="lms/goodbye.html" />
-      <file href="lms/lms.js" />
-      <file href="lms/LMSAPI.js" />
-      <file href="lms/NONEFunctions.js" />
-      <file href="lms/SCORM2004Functions.js" />
-      <file href="lms/SCORMFunctions.js" />
-      <file href="lms/UtilityFunctions.js" />
+      <file href="lms/scormdriver.js" />
     </resource>
   </resources>
 </manifest>
