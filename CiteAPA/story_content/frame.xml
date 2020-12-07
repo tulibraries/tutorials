@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
     <layout name="npnxnanbsnfns11111100101" font="Open Sans" controllayout="npnxnanbsnfns11111100101" colorscheme="pxabnsnfns11111100101" string_table="pxabnsnfns11111100101" />
     <layout name="pxabnsnfns11111100101" font="Open Sans" controllayout="pxabnsnfns11111100101" colorscheme="pxabnsnfns11111100101" string_table="pxabnsnfns11111100101" />
@@ -19,13 +19,8 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content/logo.swf">
-                <properties>
-                  <property name="width" value="849" />
-                  <property name="height" value="294" />
-                </properties>
-              </option>
-              <option name="html5_logo_url" value="mobile/5uxQOx9cGIJ.png" />
+              <option name="logo_url" value="story_content\6OuQp49n2Qb_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/5mMWROIdfgL.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -81,6 +76,7 @@
               <option name="font" value="Open Sans" />
             </options>
           </option>
+          <option name="settings" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1156,13 +1152,19 @@
   </colorschemes>
   <string_tables>
     <string_table name="pxabnsnfns11111100101">
+      <string id="accessible_text">Accessible text</string>
       <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
       <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Closed Captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
@@ -1174,23 +1176,37 @@
       <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / Unmute</string>
+      <string id="next_shortcut">Next Slide</string>
+      <string id="playpause_shortcut">Play / Pause</string>
+      <string id="previous_shortcut">Previous Slide</string>
+      <string id="replay_shortcut">Replay Slide</string>
       <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit Slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
       <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next Slide</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
       <string id="bio">Bio</string>
       <string id="more_info">More info</string>
       <string id="closed_captions">Captions</string>
       <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
       <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
       <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
       <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous Slide</string>
       <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay Slide</string>
       <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
       <string id="acc_resources">resources</string>
@@ -1204,13 +1220,19 @@
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
       <string id="acc_volume">volume</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1225,12 +1247,13 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.63buIpFq2sQ.6ppYvQwyDts" displaytext="Citing with APA Basics" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6ppYvQwyDts" displaytext="Temple Libraries Presents Citating with APA Basics" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.6WhNgUpY2BE" displaytext="Citing in APA style" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.6GnnR02syUZ" displaytext="Reference List vs In-Text" expand="false" type="slide" />
-        <slidelink slideid="_player.63buIpFq2sQ.5rSO6YlU0bP" displaytext="The Paper: Reference list" expand="false" type="slide" />
-        <slidelink slideid="_player.63buIpFq2sQ.6V0BvD9GHec" displaytext="The Paper: Reference list" expand="false" type="slide" />
-        <slidelink slideid="_player.63buIpFq2sQ.6ivVMH0VL1E" displaytext="Try it Yourself!" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5rSO6YlU0bP" displaytext="The Paper: Reference List" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6V0BvD9GHec" displaytext="Reference List: Journal Articles" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5scbqhDTbTm" displaytext="Reference List: Books" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6ai5xnPf4Wr" displaytext="Reference List: Websites" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.65kWucTwKew" displaytext="The Paper: In-text citing" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.6APP3rT098v" displaytext="In-text format" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.6Kgp0Eb0PEi" displaytext="Try it Yourself!" expand="false" type="slide" />
@@ -1244,14 +1267,15 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
+      <resource url="https://apastyle.apa.org/" image="story_content/url.png" title="APA website" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/references" image="story_content/url.png" title="APA References Guidelines" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/references/elements-list-entry#groupname" image="story_content/url.png" title="Format of Group Author Names (Reference List)" />
       <resource url="https://apastyle.apa.org/instructional-aids/reference-guide.pdf" image="story_content/url.png" title="APA 7th ed. Reference Quick Guide" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date" image="story_content/url.png" title="APA in-text citations guide" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/abbreviations/group-authors" image="story_content/url.png" title="Group Author Abbreviations" />
-      <resource url="story_content/external_files/APA citation checklist.docx" image="story_content/5vfFovxNVdd.png" title="APA Citation Checklist" />
-      <resource url="https://apastyle.apa.org/" image="story_content/url.png" title="APA website" />
-      <resource url="https://api3.libcal.com/appointments-widget.php?u=40525&amp;iid=1621&amp;t=Make%20an%20Appointment" image="story_content/url.png" title="Make an appointment with Lauri Fennell" />
+      <resource url="https://apastyle.apa.org/style-grammar-guidelines/references/examples/book-references" image="story_content/url.png" title="APA Reference - Book Format" />
+      <resource url="https://apastyle.apa.org/style-grammar-guidelines/references/examples/webpage-website-references" image="story_content/url.png" title="APA Reference - Website Format" />
+      <resource url="https://charlesstudy.temple.edu/appointments" image="story_content/url.png" title="Make an appointment with a Librarian" />
       <resource url="https://studentsuccess.temple.edu/programs/writing/" image="story_content/url.png" title="Writing Center (Student Success)" />
       <resource url="https://forms.gle/r4QZzKPfmdwTdPNN8" image="story_content/url.png" title="Tutorial survey: provide your feedback" />
     </resources>

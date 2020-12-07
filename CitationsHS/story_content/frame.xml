@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10110100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10110100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
   <layouts>
     <layout name="npnxnanbsnfns10110100101" font="Calibri" controllayout="npnxnanbsnfns10110100101" colorscheme="pxabnsnfns10110100101" string_table="pxabnsnfns10110100101" />
     <layout name="pxabnsnfns10110100101" font="Calibri" controllayout="pxabnsnfns10110100101" colorscheme="pxabnsnfns10110100101" string_table="pxabnsnfns10110100101" />
@@ -73,6 +73,7 @@
               <option name="font" value="Calibri" />
             </options>
           </option>
+          <option name="settings" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1242,13 +1243,19 @@
   </colorschemes>
   <string_tables>
     <string_table name="pxabnsnfns10110100101">
+      <string id="accessible_text">Accessible text</string>
       <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
       <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Closed Captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
@@ -1260,23 +1267,37 @@
       <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / Unmute</string>
+      <string id="next_shortcut">Next Slide</string>
+      <string id="playpause_shortcut">Play / Pause</string>
+      <string id="previous_shortcut">Previous Slide</string>
+      <string id="replay_shortcut">Replay Slide</string>
       <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit Slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
       <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next Slide</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
       <string id="bio">Bio</string>
       <string id="more_info">More info</string>
       <string id="closed_captions">Captions</string>
       <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
       <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
       <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
       <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous Slide</string>
       <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay Slide</string>
       <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
       <string id="acc_resources">resources</string>
@@ -1290,13 +1311,19 @@
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
       <string id="acc_volume">volume</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1311,50 +1338,37 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.63buIpFq2sQ" displaytext="Citations for Health Sciences" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.63buIpFq2sQ.6ppYvQwyDts" displaytext="Citations for Health Sciences" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6I84lM7vaJ9" displaytext="Introduction" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.68Qkrgxij71" displaytext="Why Cite (Correctly)" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6QVwqjHVCPZ" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.61DToU6t4oW" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5nrHFOMNYz2" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5yn8pl8HGnR" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.64BF4f3Wwsd" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6p8sQI5hO0I" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6bcamfb9iww" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5aPYOvqYBt2" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6Slu7q7Y1B8" displaytext="Try it Yourself!" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5yHuWXIrLnL" displaytext="Main Menu" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6ISpjfXsA1A" displaytext="What’s in a citation?" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6GnnR02syUZ" displaytext="Citing in APA style" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.65kWucTwKew" displaytext="The Paper: In-text citing" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5qN0qjXycBG" displaytext="Comparison among styles" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5rSO6YlU0bP" displaytext="The Paper: Reference list" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5V4MuZEenNz" displaytext="Reference List" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.690rcphv8JZ" displaytext="In-text Citations" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5bEiAeqtlXG" displaytext="Common Journal Citation Styles" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5Vv3BCA2zGc" displaytext="Review and Additional Resources" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5p21WtzVTb4" displaytext="Where to find help" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.67Rb9BrRtdv" displaytext="Thank you for viewing" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5y07jlnHkmM" displaytext="Try it Yourself" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5wVnmH6HDBx" displaytext="Consider the following full APA citation: Centers for Disease Control and Prevention. (2018). Tickborne 		Disease Surveillance Data Summary. https://www.cdc.gov/		ticks/data-summary/index.html In the field below, type the correct APA in-text citation for the first use in a paper." expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6qZIbEE1uui" displaytext="Consider the following full APA citation: Benton, S. A., Heesacker, M., Snowden, S. J., &amp; Lee, G. (2016). Therapist-		Assisted, Online (TAO) Intervention for Anxiety in College Students: 		TAO Outperformed Treatment as Usual. Professional Psychology: 		Research and Practice, 2016, Vol.47(5), Pp.363-371. https://			doi.org/10.1037/pro0000097 What is the correct format of the in-text citation for this resource?" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6APP3rT098v" displaytext="In-text format" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6V0BvD9GHec" displaytext="The Paper: Reference list" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6TCGDVk6MrR" displaytext="Tutorial Overview" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5gONCG671vR" displaytext="Why APA is suitable for writing in CPH" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6NTWIe0rBdO" displaytext="APA Reference Quick Review" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6iFq8uCSNfl" displaytext="Similarities and differences" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6HWtJPuLVfi" displaytext="Meet the subject librarians" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5ZMtrcJFRdm" displaytext="Writing Style and Citations" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6F6frKVj6Kc" displaytext="Can you recognize the differences?" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6Z4Xc92cVih" displaytext="Which citation style have you used?" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6f2C3Ah73KY" displaytext="Practice" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.5xvGECLgcMO" displaytext="Draw from Click the citation part" expand="false" type="slide" />
-            <slidelink slideid="_player.63buIpFq2sQ.6NANX6Qh5Yk" displaytext="Writing and Citing Styles" expand="false" type="slide" />
-          </links>
-        </slidelink>
+        <slidelink slideid="_player.63buIpFq2sQ.6ppYvQwyDts" displaytext="Citations for Health Sciences" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6TCGDVk6MrR" displaytext="Tutorial Overview" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6HWtJPuLVfi" displaytext="Meet the subject librarians" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5yHuWXIrLnL" displaytext="Main Menu" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6I84lM7vaJ9" displaytext="Introduction" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5siD5nE5c3j" displaytext="What are citation styles… " expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.68Qkrgxij71" displaytext="Why Cite (Correctly)" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6ISpjfXsA1A" displaytext="What’s in a citation?" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6Z4Xc92cVih" displaytext="Which citation style have you used?" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5qN0qjXycBG" displaytext="Comparison among styles" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6NANX6Qh5Yk" displaytext="Writing and Citing Styles" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6F6frKVj6Kc" displaytext="Can you recognize the differences?" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6iFq8uCSNfl" displaytext="Similarities and differences" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5bEiAeqtlXG" displaytext="Health Sciences Citation Styles" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5V4MuZEenNz" displaytext="Compare Reference List" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.690rcphv8JZ" displaytext="Compare In-text Citations" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6f2C3Ah73KY" displaytext="Practice" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5ak6mCKMScO" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6GnnR02syUZ" displaytext="Citing in APA style" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5gONCG671vR" displaytext="Why APA is suitable for writing in CPH" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5rSO6YlU0bP" displaytext="The Paper: Reference list" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6V0BvD9GHec" displaytext="Reference list: Journal Articles" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5iHG1txW6zT" displaytext="Reference list: Books" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6HUOdWgZQpf" displaytext="Reference list: Websites" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.65kWucTwKew" displaytext="The Paper: In-text citing" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6APP3rT098v" displaytext="In-text format" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.68x3T6qmZdP" displaytext="APA Reference Quick Review" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5Vv3BCA2zGc" displaytext="Review and Additional Resources" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5p21WtzVTb4" displaytext="Where to find help" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.67Rb9BrRtdv" displaytext="Thank you for viewing" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.5cN0QojtYsd" displaytext="APA Style" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
@@ -1366,11 +1380,11 @@
       <resource url="https://apastyle.apa.org/instructional-aids/reference-guide.pdf" image="story_content/url.png" title="APA 7th ed. Reference Quick Guide" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date" image="story_content/url.png" title="APA in-text citations guide" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/abbreviations/group-authors" image="story_content/url.png" title="Group Author Abbreviations" />
-      <resource url="story_content/external_files/APA citation checklist.docx" image="story_content/6NAEfSWvELV.png" title="APA Citation Checklist" />
+      <resource url="story_content/external_files/APA citation checklist.docx" image="story_content/6aU37JsiP0G.png" title="APA Journal Article Citation Checklist" />
       <resource url="https://apastyle.apa.org/" image="story_content/url.png" title="APA website" />
       <resource url="https://api3.libcal.com/appointments-widget.php?u=40525&amp;iid=1621&amp;t=Make%20an%20Appointment" image="story_content/url.png" title="Make an appointment with Lauri Fennell" />
       <resource url="https://studentsuccess.temple.edu/programs/writing/" image="story_content/url.png" title="Writing Center (Student Success)" />
-      <resource url="https://forms.gle/3hem6DwSfEiMs1uT7" image="story_content/url.png" title="Tutorial survey: provide your feedback" />
+      <resource url="https://forms.gle/ZbQVmxmroPAXAtYq7" image="story_content/url.png" title="Tutorial survey: provide your feedback" />
     </resources>
   </resource_data>
   <transcript_data />
