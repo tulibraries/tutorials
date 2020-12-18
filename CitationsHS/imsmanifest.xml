@@ -94,7 +94,7 @@
       <file href="mobile/5tg9jW9vVGA_80_P_0_0_768_1024_DX876_DY876_CX344_CY459.png" />
       <file href="meta.xml" />
       <file href="story_content/url.png" />
-      <file href="story_content/6aU37JsiP0G.png" />
+      <file href="story_content/5fUN7zj1Dm5.png" />
       <file href="story_content/user.js" />
       <file href="story_content/external_files/APA citation checklist.docx" />
       <file href="mobile/txt__default_5w1j3CXs6HZ.png" />
@@ -161,6 +161,7 @@
       <file href="html5/data/js/690rcphv8JZ.js" />
       <file href="html5/data/js/6APP3rT098v.js" />
       <file href="html5/data/js/6bcamfb9iww.js" />
+      <file href="html5/data/js/6CUrucaiZ8J.js" />
       <file href="html5/data/js/6f2C3Ah73KY.js" />
       <file href="html5/data/js/6F6frKVj6Kc.js" />
       <file href="html5/data/js/6GnnR02syUZ.js" />
@@ -179,13 +180,14 @@
       <file href="html5/data/js/6V0BvD9GHec.js" />
       <file href="html5/data/js/6WJeimfyRkm.js" />
       <file href="html5/data/js/6Z4Xc92cVih.js" />
+      <file href="html5/data/js/6ZKJ3VpCfZr.js" />
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
-      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
-      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
-      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
-      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
       <file href="html5/lib/stylesheets/desktop.min.css" />
       <file href="html5/lib/stylesheets/mobile.min.css" />
       <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />

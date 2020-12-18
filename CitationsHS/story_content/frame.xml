@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10110100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10110100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
   <layouts>
     <layout name="npnxnanbsnfns10110100101" font="Calibri" controllayout="npnxnanbsnfns10110100101" colorscheme="pxabnsnfns10110100101" string_table="pxabnsnfns10110100101" />
     <layout name="pxabnsnfns10110100101" font="Calibri" controllayout="pxabnsnfns10110100101" colorscheme="pxabnsnfns10110100101" string_table="pxabnsnfns10110100101" />
@@ -1239,10 +1239,60 @@
           </color>
         </group_colors>
       </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
     <string_table name="pxabnsnfns10110100101">
+      <string id="three_image_of">of</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_viewed">viewed</string>
       <string id="accessible_text">Accessible text</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
@@ -1274,6 +1324,7 @@
       <string id="replay_shortcut">Replay Slide</string>
       <string id="shortcut">Shortcut</string>
       <string id="submit_shortcut">Submit Slide</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
       <string id="togglezoom">Switch zoom modes</string>
@@ -1303,11 +1354,13 @@
       <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
       <string id="acc_search_input">search</string>
       <string id="search_toggle">Search</string>
       <string id="sidebar_toggle">Sidebar Toggle</string>
       <string id="desktop_start">Start Course</string>
       <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
@@ -1363,11 +1416,13 @@
         <slidelink slideid="_player.63buIpFq2sQ.5iHG1txW6zT" displaytext="Reference list: Books" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.6HUOdWgZQpf" displaytext="Reference list: Websites" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.65kWucTwKew" displaytext="The Paper: In-text citing" expand="false" type="slide" />
-        <slidelink slideid="_player.63buIpFq2sQ.6APP3rT098v" displaytext="In-text format" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6APP3rT098v" displaytext="In-text Format" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.68x3T6qmZdP" displaytext="APA Reference Quick Review" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.5Vv3BCA2zGc" displaytext="Review and Additional Resources" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.5p21WtzVTb4" displaytext="Where to find help" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.67Rb9BrRtdv" displaytext="Thank you for viewing" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6ZKJ3VpCfZr" displaytext="In-text Format: Narrative vs Parenthetical" expand="false" type="slide" />
+        <slidelink slideid="_player.63buIpFq2sQ.6CUrucaiZ8J" displaytext="Reference List: Government Sources, Reports &amp;amp; Grey Literature" expand="false" type="slide" />
         <slidelink slideid="_player.63buIpFq2sQ.5cN0QojtYsd" displaytext="APA Style" expand="false" type="slide" />
       </links>
     </outline>
@@ -1379,8 +1434,10 @@
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/references/elements-list-entry#groupname" image="story_content/url.png" title="Format of Group Author Names (Reference List)" />
       <resource url="https://apastyle.apa.org/instructional-aids/reference-guide.pdf" image="story_content/url.png" title="APA 7th ed. Reference Quick Guide" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date" image="story_content/url.png" title="APA in-text citations guide" />
+      <resource url="https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references#1" image="story_content/url.png" title="APA Journal Article Citations" />
       <resource url="https://apastyle.apa.org/style-grammar-guidelines/abbreviations/group-authors" image="story_content/url.png" title="Group Author Abbreviations" />
-      <resource url="story_content/external_files/APA citation checklist.docx" image="story_content/6aU37JsiP0G.png" title="APA Journal Article Citation Checklist" />
+      <resource url="https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/parenthetical-versus-narrative" image="story_content/url.png" title="APA Parenthetical vs Narrative" />
+      <resource url="story_content/external_files/APA citation checklist.docx" image="story_content/5fUN7zj1Dm5.png" title="APA Journal Article Citation Checklist" />
       <resource url="https://apastyle.apa.org/" image="story_content/url.png" title="APA website" />
       <resource url="https://api3.libcal.com/appointments-widget.php?u=40525&amp;iid=1621&amp;t=Make%20an%20Appointment" image="story_content/url.png" title="Make an appointment with Lauri Fennell" />
       <resource url="https://studentsuccess.temple.edu/programs/writing/" image="story_content/url.png" title="Writing Center (Student Success)" />
