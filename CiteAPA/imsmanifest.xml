@@ -73,7 +73,7 @@
       <file href="mobile/6GxzNCpiJop_80_P_0_0_2048_1177_DX1410_DY1410_CX1477_CY849.png" />
       <file href="mobile/6OuAJr5SqDY_80_Q2FFFFFF_DX1052_DY1052_CX850_CY638.jpg" />
       <file href="meta.xml" />
-      <file href="mobile/5mMWROIdfgL.png" />
+      <file href="mobile/5moAQthXMfC.png" />
       <file href="story_content/url.png" />
       <file href="story_content/user.js" />
       <file href="mobile/txt__default_6g5wqUuDqF9.png" />
@@ -103,10 +103,10 @@
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
-      <file href="html5/lib/scripts/ds-bootstrap.min.js" />
-      <file href="html5/lib/scripts/ds-frame.desktop.min.js" />
-      <file href="html5/lib/scripts/ds-frame.mobile.min.js" />
-      <file href="html5/lib/scripts/ds-slides.min.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
       <file href="html5/lib/stylesheets/desktop.min.css" />
       <file href="html5/lib/stylesheets/mobile.min.css" />
       <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
