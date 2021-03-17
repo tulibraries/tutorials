@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111101101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns11111001101" font="Calibri" controllayout="npnxnanbsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
-    <layout name="pxabnsnfns11111001101" font="Calibri" controllayout="pxabnsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
-    <layout name="npxnabnsnfns11111001101" font="Calibri" controllayout="npxnabnsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
-    <layout name="npnxnanbnsnfns11111001101" font="Calibri" controllayout="npnxnanbnsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
-    <layout name="pxabnsnfns11111001100" font="Calibri" controllayout="pxabnsnfns11111001100" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
-    <layout name="pnxanbsnfns11111001101" font="Calibri" controllayout="pnxanbsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
+    <layout name="npnxnanbsnfns11111101101" font="Calibri" controllayout="npnxnanbsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101101" font="Calibri" controllayout="pxabnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="npxnabnsnfns11111101101" font="Calibri" controllayout="npxnabnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="npnxnanbnsnfns11111101101" font="Calibri" controllayout="npnxnanbnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101100" font="Calibri" controllayout="pxabnsnfns11111101100" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pnxanbsnfns11111101101" font="Calibri" controllayout="pnxanbsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -19,8 +19,8 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\5hxSFwNRo9F_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/61hIAouyNbl.png" />
+              <option name="logo_url" value="story_content\6mqrQKRpecv_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/6aLX0NXrDvL.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -31,7 +31,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
               <listitem name="transcript" value="true" group="sidebar" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
@@ -94,7 +94,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11111001101">
+    <control_layout name="npnxnanbsnfns11111101101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -107,7 +107,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -117,7 +117,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111001101">
+    <control_layout name="pxabnsnfns11111101101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -130,7 +130,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -140,7 +140,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11111001101">
+    <control_layout name="npxnabnsnfns11111101101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -153,7 +153,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -163,7 +163,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11111001101">
+    <control_layout name="npnxnanbnsnfns11111101101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -176,7 +176,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -186,7 +186,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111001100">
+    <control_layout name="pxabnsnfns11111101100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -199,7 +199,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -209,7 +209,7 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbsnfns11111001101">
+    <control_layout name="pnxanbsnfns11111101101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -222,7 +222,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -234,7 +234,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns11111001101">
+    <colorscheme name="npxnabnsnfns11111101101">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1162,7 +1162,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns11111001101">
+    <string_table name="npxnabnsnfns11111101101">
       <string id="three_image_items">items</string>
       <string id="three_image_viewed">viewed</string>
       <string id="three_image_of">of</string>
@@ -1283,7 +1283,15 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Calibri' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/Source_Academic Journal.pdf" image="story_content/6Rs20TVBHj8.png" title="Academic Journal Source Sample" />
+      <resource url="story_content/external_files/Source_Book Chapter.pdf" image="story_content/6f8TgjHfcsp.png" title="Book Chapter Source Sample" />
+      <resource url="story_content/external_files/Source_Newspaper-Magazine.pdf" image="story_content/6jrzSuoie3I.png" title="Newspaper/Magazine Source Sample" />
+      <resource url="story_content/external_files/Source_Encyclopedia.pdf" image="story_content/6B9uFjaLV6S.png" title="Encyclopedia Source Sample" />
+      <resource url="http://bit.ly/blm003" image="story_content/url.png" title="Web Source/Scholarly Blog Sample" />
+    </resources>
+  </resource_data>
   <transcript_data>
     <slidetranscripts>
       <slidetranscript slideid="6Q185H3LjzU.6r9HtnUZoDN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
@@ -1337,6 +1345,7 @@
       <slidetranscript slideid="6Q185H3LjzU.6Gd3zFlzCfj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="No matter what source type you use, there are several identifiers that can help you establish credibility of the " /&gt;
       &lt;Span Text="source. Let’s examine these aspects further. Click each element on the right to learn more."&gt;
         &lt;Style FontSize="9" /&gt;
@@ -1344,33 +1353,43 @@
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Author - There are different levels of authority a person can bring to a topic. For example, consider the scholar’s established authority vs. the journalist’s report of an eyewitness account. What type of authority does each author have? How could you find more information about an author if none is presently apparent?&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Publication Source -  Think about the role of publication in source evaluation. As seen in the Information Timeline, more in-depth analyses become available as time passes. Keep in mind: sources may appear in publications that do not have editorial process in place, and information can reflect bias or suffer from inaccurate information.&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Year Published - Consider the impact of source currency: publication date functions in different contexts or academic disciplines. For example,  scientific research should include very recent sources, historical or humanities-based research may include older sources, current events or popular culture research may include very recent sources, etc. Refer back to the Information Timeline to review the general timeframe.&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Additional Info - Consider other information included in the source, such as citations or bibliography, links to similar articles, subject headings or keywords, abstract, etc. Keep an eye out for additional information including links to other articles, citations, references, abstracts, full-text, subjects, images/icons, advertisements, etc. Think about how additional pieces of information can aid you in the research process – following citations, discovering additional sources, etc. &amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="&amp;#xA;" /&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Usage - Think about when and why you might use a particular source in your research. Sources can offer different uses, from background and historical context to current information and support for arguments. Sources that are not “scholarly, academic articles” can allow for additional utility in the research process." /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
