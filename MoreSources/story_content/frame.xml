@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111001101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
     <layout name="npnxnanbsnfns11111001101" font="Calibri" controllayout="npnxnanbsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
     <layout name="pxabnsnfns11111001101" font="Calibri" controllayout="pxabnsnfns11111001101" colorscheme="npxnabnsnfns11111001101" string_table="npxnabnsnfns11111001101" />
@@ -19,8 +19,8 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\61UTfOzBYgP_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/5V6T1jMuZxj.png" />
+              <option name="logo_url" value="story_content\5hxSFwNRo9F_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/61hIAouyNbl.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -76,6 +76,7 @@
               <option name="font" value="Calibri" />
             </options>
           </option>
+          <option name="settings" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1162,13 +1163,25 @@
   </colorschemes>
   <string_tables>
     <string_table name="npxnabnsnfns11111001101">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
       <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
       <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
@@ -1180,42 +1193,63 @@
       <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
       <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
       <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
       <string id="bio">Bio</string>
       <string id="more_info">More info</string>
       <string id="closed_captions">Captions</string>
       <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
       <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
       <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
       <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
       <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
       <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
       <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
       <string id="acc_search_input">search</string>
       <string id="search_toggle">Search</string>
       <string id="sidebar_toggle">Sidebar Toggle</string>
       <string id="desktop_start">Start Course</string>
       <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
       <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
       <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
@@ -1236,20 +1270,16 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6Q185H3LjzU" displaytext="Untitled Scene" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6Q185H3LjzU.6r9HtnUZoDN" displaytext="Welcome" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.6ZwrdagAbtr" displaytext="Source Aspects and Types " expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.6Gd3zFlzCfj" displaytext="Aspects to Consider When Reviewing a Source" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.5jVjQhI8e0f" displaytext="Identifying Source Type" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.5wsvYl7cqYX" displaytext="Knowledge Check" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.6JgTI3STId7" displaytext="Scholarly vs. Non-Scholarly Recap" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.6dPlZyCcOLx" displaytext="How do writers use sources?" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.5yKS8qsYQbA" displaytext="Knowledge Check" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.6Cll7roxAYi" displaytext="Contact Us" expand="false" type="slide" />
-            <slidelink slideid="_player.6Q185H3LjzU.6bTaFz8IxM7" displaytext="Thank you!" expand="false" type="slide" />
-          </links>
-        </slidelink>
+        <slidelink slideid="_player.6Q185H3LjzU.6r9HtnUZoDN" displaytext="Welcome" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.6ZwrdagAbtr" displaytext="Source Aspects and Types " expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.6Gd3zFlzCfj" displaytext="Aspects to Consider When Reviewing a Source" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.5jVjQhI8e0f" displaytext="Identifying Source Type" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.5wsvYl7cqYX" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.6JgTI3STId7" displaytext="Scholarly vs. Non-Scholarly Recap" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.6dPlZyCcOLx" displaytext="How do writers use sources?" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.5yKS8qsYQbA" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.6Cll7roxAYi" displaytext="Contact Us" expand="false" type="slide" />
+        <slidelink slideid="_player.6Q185H3LjzU.6bTaFz8IxM7" displaytext="Thank you!" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
@@ -1259,6 +1289,7 @@
       <slidetranscript slideid="6Q185H3LjzU.6r9HtnUZoDN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
+      &lt;Style /&gt;
       &lt;Span Text="Welcome to Temple University Libraries online module! " /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
@@ -1266,7 +1297,8 @@
       <slidetranscript slideid="6Q185H3LjzU.6ZwrdagAbtr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
-      &lt;Span Text="Upon completion of this section, you will be able to do the following: &amp;#xA;"&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Upon completion of this tutorial, you will be able to do the following: &amp;#xA;"&gt;
         &lt;Style FontFamily="Calibri" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
