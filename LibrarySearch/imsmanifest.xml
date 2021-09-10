@@ -61,11 +61,11 @@
   <resources>
     <resource identifier="__6UW4vxneZJ2_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
-      <file href="mobile/63WnZBSUfDA_80_P_0_0_2048_1151_DX2560_DY2560_CX1920_CY1080.png" />
+      <file href="mobile/63WnZBSUfDA_80_P_0_0_2048_1151_DX2560_DY2560_CX1920_CY1080.jpg" />
       <file href="mobile/5vmHqw6bdg5_80_P_0_0_2048_634_DX684_DY684_CX513_CY159.png" />
       <file href="story_content/622YwyCL6fZ_44100_48_0.mp3" />
       <file href="story_content/6N1qMQDJAK2_captions.js" />
-      <file href="mobile/61uump5L0ix_80_P_0_7_883_55_DX1766_DY1766_CX883_CY55.png" />
+      <file href="mobile/61uump5L0ix_80_P_0_7_883_55_DX1766_DY1766_CX883_CY55.jpg" />
       <file href="story_content/62cTwnBa5TD_44100_48_0.mp3" />
       <file href="story_content/5h4w3ijWgqL_captions.js" />
       <file href="mobile/6CCMZtWpPEA_DX3200_DY3200_CX1600_CY900.jpg" />
@@ -213,9 +213,9 @@
       <file href="story_content/6TaofSLhxkm_44100_48_0.mp3" />
       <file href="story_content/6UYMBng5xWh_captions.js" />
       <file href="meta.xml" />
-      <file href="mobile/5ylqgIT86R0.png" />
+      <file href="mobile/5oPHg7CXYNf.png" />
       <file href="story_content/url.png" />
-      <file href="story_content/6A9bFRUTGW4.png" />
+      <file href="story_content/5knKyd1MxLs.png" />
       <file href="story_content/user.js" />
       <file href="story_content/external_files/Using the Library Website.docx" />
       <file href="mobile/Shape6R2mtPqje9c.png" />
@@ -284,6 +284,7 @@
       <file href="lms/blank.html" />
       <file href="lms/browsersniff.js" />
       <file href="lms/goodbye.html" />
+      <file href="lms/LICENSE.txt" />
       <file href="lms/scormdriver.js" />
     </resource>
   </resources>
