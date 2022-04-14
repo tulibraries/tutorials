@@ -21,7 +21,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6MOVdOdGOZa.png" />
+              <option name="html5_logo_url" value="mobile/6Fr6W9ys0Xs.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -1459,13 +1459,19 @@
       <string id="three_image_interaction_prev">previous</string>
       <string id="three_image_visited">visited</string>
       <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_item">item</string>
       <string id="three_image_interaction_step">step</string>
       <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
       <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
-      <string id="three_image_view_image">view image</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
