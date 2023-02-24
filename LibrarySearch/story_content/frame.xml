@@ -19,8 +19,8 @@
           </option>
           <option name="logo_enabled" value="true">
             <options>
-              <option name="logo_url" value="story_content\5zfnmbVAlUK_DX1024_DY1024.swf" />
-              <option name="html5_logo_url" value="mobile/5oPHg7CXYNf.png" />
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/66ceHeGzFv4.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -78,6 +78,8 @@
             </options>
           </option>
           <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -105,6 +107,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -128,6 +132,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -151,6 +157,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -174,6 +182,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -197,6 +207,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -220,6 +232,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1413,13 +1427,62 @@
   </colorschemes>
   <string_tables>
     <string_table name="pxabnsnfns11111101111">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
       <string id="three_image_items">items</string>
-      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
       <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
@@ -1429,6 +1492,9 @@
       <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1440,6 +1506,8 @@
       <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
       <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
       <string id="action">Action</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
@@ -1452,9 +1520,12 @@
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
       <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
@@ -1490,11 +1561,16 @@
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
       <string id="settings_tip">Settings</string>
       <string id="shift_key">Shift</string>
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn more...</string>
+      <string id="streaming_video_local_playback_republish">To preview this video, use the Preview functionality in Storyline, republish your course using standard MP4 video, or publish to Review 360.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
@@ -1578,17 +1654,47 @@
       <slidetext slideid="6dr6IszPnrs.6e1wvdpBhfS" slidebank="false" type="slide">if you have more questions, the “contact us” tab provides you with multiple options. from here, you can live chat with a librarian in real time, make an appointment with a librarian, email, text, or call us.  </slidetext>
       <slidetext slideid="6dr6IszPnrs.6epWjYHw2cF" slidebank="false" type="slide"> the "search faqs" link at the bottom of the page is another place to search for answers to common questions.  </slidetext>
       <slidetext slideid="6dr6IszPnrs.5sZU4tXYxOt" slidebank="false" type="slide"> </slidetext>
-      <slidetext slideid="6dr6IszPnrs.5yIII3SQd6p" slidebank="false" type="slide">feel free to explore the website yourself and contact us with any questions. please give us your feedback on this tutorial by filling out the form here.   visit us at library.temple.edu. please share your feedback with us on this tutorial. click here to open the feedback form.</slidetext>
+      <slidetext slideid="6dr6IszPnrs.5yIII3SQd6p" slidebank="false" type="slide">  	  for “suitable” on the app store of your ios or android phone. search 	        the app and log in with your temple accessnet email and password download          this qr code to earn points toward the friend of the library badge. activity: using the library website tutorial scan      search for “suitable” on the app store of 	your ios or android phone. download the app and log in with your 	temple accessnet email and password scan this qr code to earn points 		toward the friend of the libraries 	badge. activity: using the library website tutorial     feel free to explore the website yourself and contact us with any questions. please give us your feedback on this tutorial by filling out the form here.   visit us at library.temple.edu. please share your feedback with us on this tutorial. click here to open the feedback form. looking for credit in suitable? scan this qr code or select here for additional instructions!   </slidetext>
       <slidetext slideid="5pC1QjjjBF5.6MQcO7LJoLx" slidebank="false" type="slide">  the first results page brings you to a list of all materials pertaining to your subject, organized by resource type: books &amp; media, articles, databases, journals, and website. from here, you can either click on a single entry, or view all results for a specific resource type. </slidetext>
       <slidetext slideid="5pC1QjjjBF5.6CEB0lPvMV8" slidebank="false" type="slide">first, ﻿an item may be available at “stacks (4th floor)” with an associated call number. these items are freely available on the fourth floor of charles library. use the call number listed to locate the item on the shelf, and checkout at the one stop assistance desk or using a self-checkout (located on the first and fourth floors). please note that these items cannot be requested online if you are requesting from main campus. </slidetext>
       <slidetext slideid="5pC1QjjjBF5.5mbtMy5Pgos" slidebank="false" type="slide">  some items are available at another campus library or storage location. if this is the case, use the “request” button to have the item sent to your campus library.  </slidetext>
       <slidetext slideid="5pC1QjjjBF5.6cVN9HVDS39" slidebank="false" type="slide">most books will be located in the bookbot. use the request button to have the item pulled for you. you will be notified by email when your item is ready for pickup. requests sent to charles library will be ready for pickup in about 20 minutes and held on the shelves behind the one stop assistance desk.  </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.65UEamUPp1B" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.61W1gA8qU2Z" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5f244rghkO8" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6CMolRTnp3U" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6HZ6Frgp7VG" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6mMhtYCkc22" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5V29tYht7db" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5XbHAg5QUFX" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6Mxg5EqSct9" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6D2BJaKL6yo" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6kVIQyoIQzt" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6Gqo0JsBjmQ" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5Xja7i6gNUY" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.69tk8DlGcYC" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5VHMMasPoIY" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5cHewLNH5wx" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6W44CRmwoWV" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5vkZNCucHrP" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5wBtL1onRyK" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6eDn4osVQWm" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6VTnG9XlE0o" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6WPLoE2VkoP" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5hvwlXxY6RW" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6NDyxyv6QG3" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5V9JkSsIgGT" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6m4ifklv8FS" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6mmhv9YNvAS" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5pzcqXUGZWh" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.6opR1xc5B33" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="5eyU5iGrfXL.5XCdjySoLng" slidebank="false" type="slide"> </slidetext>
     </search>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Roboto' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Click here to download the full transcript:&lt;/font&gt;&lt;/p&gt;">
     <resources>
       <resource url="http://library.temple.edu" image="story_content/url.png" title="Temple Universty Libraries Website" />
-      <resource url="story_content/external_files/Using the Library Website.docx" image="story_content/5knKyd1MxLs.png" title="Using the Library Website Transcript" />
+      <resource url="story_content/external_files/Using the Library Website.docx" image="story_content/6cUK0shbxpK.png" title="Using the Library Website Transcript" />
     </resources>
   </resource_data>
   <transcript_data>
@@ -2102,7 +2208,7 @@
       <slidetranscript slideid="6dr6IszPnrs.5yIII3SQd6p" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000,00" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
       &lt;Span Text="Thank you for visiting! Feel free to explore the website yourself and contact us with any questions.&amp;#xA;"&gt;
@@ -2110,16 +2216,10 @@
       &lt;/Span&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="6" SpacingAfter="6"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000,00" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="Please share your feedback with us on this tutorial. Click "&gt;
-        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
-      &lt;/Span&gt;
-      &lt;Span Text="here"&gt;
-        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="True" FontIsStrikeout="False" /&gt;
-      &lt;/Span&gt;
-      &lt;Span Text=" to open the feedback form."&gt;
+      &lt;Span Text="Please share your feedback with us on this tutorial. Click here to open the feedback form."&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
