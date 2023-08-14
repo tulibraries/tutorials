@@ -1,0 +1,62 @@
+{
+  "version": "3.77.30587.0",
+  "course_id": "6H3hJdTyql1",
+  "title": "Find a database_v2",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Find a Database"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5uKo6iXckgT",
+      "title": "How to find databases",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5aSK5Vs7xUs",
+      "title": "Use a Research Guide",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5o5gcvMcLFF",
+      "title": "Research Guides",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6QCtqMIIBhR",
+      "title": "Dance Guides",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "62KsF0Du8Sn",
+      "title": "Music Guides",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6A3pUuPsmb3",
+      "title": "Theater Guides",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "5jmxXsX7IYG",
+      "title": "Use the Database AZ List",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "6CPPcUi2Q9m",
+      "title": "Use the Database AZ List",
+      "scene_index": "1.8"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 611
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}
