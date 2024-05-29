@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111101001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111001001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
   <layouts>
-    <layout name="npnxnanbsnfns11111101001" font="Arial" controllayout="npnxnanbsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="pxabnsnfns11111101001" font="Arial" controllayout="pxabnsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="npxnabnsnfns11111101001" font="Arial" controllayout="npxnabnsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="npnxnanbnsnfns11111101001" font="Arial" controllayout="npnxnanbnsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="pxabnsnfns11111101000" font="Arial" controllayout="pxabnsnfns11111101000" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
-    <layout name="pnxanbsnfns11111101001" font="Arial" controllayout="pnxanbsnfns11111101001" colorscheme="npxnabnsnfns11111101001" string_table="npxnabnsnfns11111101001" />
+    <layout name="npnxnanbsnfns11111001001" font="Arial" controllayout="npnxnanbsnfns11111001001" colorscheme="npxnabnsnfns11111001001" string_table="npxnabnsnfns11111001001" />
+    <layout name="pxabnsnfns11111001001" font="Arial" controllayout="pxabnsnfns11111001001" colorscheme="npxnabnsnfns11111001001" string_table="npxnabnsnfns11111001001" />
+    <layout name="npxnabnsnfns11111001001" font="Arial" controllayout="npxnabnsnfns11111001001" colorscheme="npxnabnsnfns11111001001" string_table="npxnabnsnfns11111001001" />
+    <layout name="npnxnanbnsnfns11111001001" font="Arial" controllayout="npnxnanbnsnfns11111001001" colorscheme="npxnabnsnfns11111001001" string_table="npxnabnsnfns11111001001" />
+    <layout name="pxabnsnfns11111001000" font="Arial" controllayout="pxabnsnfns11111001000" colorscheme="npxnabnsnfns11111001001" string_table="npxnabnsnfns11111001001" />
+    <layout name="pnxanbsnfns11111001001" font="Arial" controllayout="pnxanbsnfns11111001001" colorscheme="npxnabnsnfns11111001001" string_table="npxnabnsnfns11111001001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6ez2Z2HsZKB.png" />
+              <option name="html5_logo_url" value="mobile/6BX2JcaW2ix.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -31,7 +31,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="transcript" value="true" group="sidebar" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
@@ -72,11 +72,7 @@
           <option name="pauseplay" value="true" />
           <option name="replay" value="true" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="false">
-            <options>
-              <option name="font" value="Arial" />
-            </options>
-          </option>
+          <option name="closed_captions" value="false" />
           <option name="settings" value="true" />
           <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="true" />
@@ -94,10 +90,19 @@
           <option name="submit" value="icontext" />
         </options>
       </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Arial" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11111101001">
+    <control_layout name="npnxnanbsnfns11111001001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -112,7 +117,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -122,7 +127,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111101001">
+    <control_layout name="pxabnsnfns11111001001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -137,7 +142,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -147,7 +152,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11111101001">
+    <control_layout name="npxnabnsnfns11111001001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -162,7 +167,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -172,7 +177,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11111101001">
+    <control_layout name="npnxnanbnsnfns11111001001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -187,7 +192,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -197,7 +202,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111101000">
+    <control_layout name="pxabnsnfns11111001000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -212,7 +217,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -222,7 +227,7 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbsnfns11111101001">
+    <control_layout name="pnxanbsnfns11111001001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -237,7 +242,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="true" />
       <control name="outline" enabled="true">
@@ -249,7 +254,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns11111101001">
+    <colorscheme name="npxnabnsnfns11111001001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1427,7 +1432,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns11111101001">
+    <string_table name="npxnabnsnfns11111001001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1437,23 +1442,24 @@
       <string id="three_image_interaction_free">free exploration mode</string>
       <string id="three_image_interaction_guided">guided tour mode</string>
       <string id="three_image_hotspot">hotspot</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
       <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
       <string id="three_image_interaction">360 degree image interaction</string>
       <string id="three_image_label">label</string>
       <string id="three_image_marker">marker</string>
-      <string id="three_image_items">items</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
       <string id="three_image_interaction_next">next</string>
       <string id="three_image_pause_audio">pause audio</string>
       <string id="three_image_pause_video">pause video</string>
       <string id="three_image_play_audio">play audio</string>
       <string id="three_image_play_video">play video</string>
       <string id="three_image_interaction_prev">previous</string>
-      <string id="three_image_visited">visited</string>
-      <string id="three_image_of">of</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
       <string id="three_image_count_of_total">%count% of %total%</string>
       <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
-      <string id="three_image_item">item</string>
-      <string id="three_image_interaction_step">step</string>
       <string id="three_image_tooltip">tooltip</string>
       <string id="three_image_total_items">%total% items</string>
       <string id="three_image_total_item">%total% item</string>
@@ -1464,8 +1470,7 @@
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
-      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
-      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="background_audio">Background audio</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
       <string id="modern_video_settings_close">close video settings</string>
@@ -1484,101 +1489,88 @@
       <string id="acc_modern_video_captions">video captions</string>
       <string id="acc_modern_video_playback_speed">playback speed</string>
       <string id="acc_modern_video_volume">video volume</string>
-      <string id="acc_active">active</string>
-      <string id="alt_key">Alt</string>
-      <string id="check_include">Check to include</string>
-      <string id="clear">Clear and return to menu</string>
-      <string id="close">Close</string>
-      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
-      <string id="closed_captions_tip">Toggle captions</string>
-      <string id="continue">Continue</string>
+      <string id="closed_captions">Captions</string>
       <string id="continueresponsive">Continue</string>
+      <string id="next">NEXT</string>
+      <string id="prev">PREV</string>
+      <string id="submit">SUBMIT</string>
       <string id="playback_speed_title">Playback Speed</string>
       <string id="playback_speed_normal">Normal</string>
-      <string id="acc_playback_speed">playback speed</string>
-      <string id="ctrl_key">Ctrl</string>
-      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
-      <string id="enter_key">Enter</string>
-      <string id="exit">Exit</string>
-      <string id="filter">Filter</string>
-      <string id="finish">FINISH</string>
-      <string id="acc_finish">finish</string>
-      <string id="definition">Definition</string>
-      <string id="acc_definition">definition</string>
+      <string id="continue">Continue</string>
       <string id="glossary">Glossary</string>
       <string id="terms">Terms</string>
-      <string id="progress_hour">hour</string>
-      <string id="progress_hours">hours</string>
       <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="ctrl_key">Ctrl</string>
       <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="shortcuthelp">List keyboard shortcuts</string>
       <string id="mute_shortcut">Mute / unmute</string>
-      <string id="next_shortcut">Next slide</string>
+      <string id="next_shortcut">Next</string>
       <string id="playpause_shortcut">Play / pause</string>
-      <string id="previous_shortcut">Previous slide</string>
-      <string id="replay_shortcut">Replay slide</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="shift_key">Shift</string>
       <string id="shortcut">Shortcut</string>
-      <string id="submit_shortcut">Submit slide</string>
+      <string id="submit_shortcut">Submit</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
-      <string id="closedcaptions_shortcut">Toggle closed captions</string>
-      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
       <string id="togglezoom">Switch zoom modes</string>
       <string id="outline">Menu</string>
-      <string id="disabled_orientation">Please rotate your device</string>
-      <string id="progress_minute">minute</string>
-      <string id="progress_minutes">minutes</string>
-      <string id="mute_tip">Mute</string>
-      <string id="next">NEXT</string>
-      <string id="acc_next">next</string>
-      <string id="next_slide_tip">Next slide</string>
-      <string id="transcript_chk">Notes</string>
       <string id="transcript">Notes</string>
-      <string id="bio">Bio</string>
-      <string id="more_info">More info</string>
-      <string id="closed_captions">Captions</string>
-      <string id="acc_pause">pause</string>
-      <string id="pause_tip">Pause</string>
-      <string id="acc_play">play</string>
-      <string id="play_tip">Play</string>
-      <string id="send_an_email">Send an email</string>
-      <string id="prev">PREV</string>
-      <string id="acc_previous">previous</string>
-      <string id="previous_slide_tip">Previous slide</string>
-      <string id="question_list">Question List</string>
-      <string id="replay_tip">Replay</string>
-      <string id="acc_replay">replay</string>
+      <string id="disabled_orientation">Please rotate your device</string>
       <string id="resources">Resources</string>
-      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
+      <string id="close">Close</string>
       <string id="acc_locked">locked</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
       <string id="acc_search_input">search</string>
-      <string id="search_toggle">Search</string>
       <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
       <string id="acc_slide_progress">slide progress</string>
       <string id="desktop_start">Start Course</string>
       <string id="mobile_start">Start Course</string>
       <string id="acc_visited">visited</string>
-      <string id="search">Search...</string>
+      <string id="clear">Clear and return to menu</string>
       <string id="search_in">Search in:</string>
+      <string id="filter">Filter</string>
+      <string id="search">Search...</string>
+      <string id="transcript_chk">Notes</string>
       <string id="search_results">Search Results</string>
-      <string id="progress_second">second</string>
-      <string id="progress_seconds">seconds</string>
-      <string id="settings_tip">Settings</string>
-      <string id="shift_key">Shift</string>
-      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="spacebar_key">Space</string>
       <string id="streaming_video_local_playback_learn_more">Learn More</string>
       <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
       <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
-      <string id="submitall">SUBMIT ALL</string>
-      <string id="acc_submitall">submit all</string>
-      <string id="submit">SUBMIT</string>
-      <string id="acc_submit">submit</string>
-      <string id="submit_tip">Submit</string>
-      <string id="unmute_tip">Unmute</string>
-      <string id="acc_volume">volume</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcript</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1588,54 +1580,41 @@
         <file bold="false" italic="false" />
       </files>
     </font>
-    <font name="Calibri">
-      <files>
-        <file bold="false" italic="false" />
-      </files>
-    </font>
   </fonts>
   <sounds enabled="true" />
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6Q185H3LjzU.6r9HtnUZoDN" displaytext="Welcome" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.6ZwrdagAbtr" displaytext="Source Aspects and Types " expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.6Gd3zFlzCfj" displaytext="Aspects to Consider When Reviewing a Source" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.5jVjQhI8e0f" displaytext="Identifying Source Type" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.5wsvYl7cqYX" displaytext="Knowledge Check" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.6JgTI3STId7" displaytext="Scholarly vs. Non-Scholarly Recap" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.6dPlZyCcOLx" displaytext="How do writers use sources?" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.5yKS8qsYQbA" displaytext="Knowledge Check" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.6Cll7roxAYi" displaytext="Contact Us" expand="false" type="slide" />
-        <slidelink slideid="_player.6Q185H3LjzU.638lTkHD1c4" displaytext="Thank you!" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.5j1avZVWFdJ" displaytext="Source Aspects and Types " expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.5VcczjoLFE5" displaytext="Welcome" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.691iUEdDqYj" displaytext="Aspects to consider when reviewing a source" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.5rjfGDlsKWW" displaytext="Identifying Source Type" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.5WbBt1ntDLo" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.5a1PMCLLltC" displaytext="Scholarly vs. Non-Scholarly Recap" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.670D3J8vOjH" displaytext="How do writers use sources?" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.5gOI0U6BiDw" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.6QQEFIrlK0U" displaytext="Contact Us" expand="false" type="slide" />
+        <slidelink slideid="_player.6KHlBV1Lf4N.6kmMT4QhLcv" displaytext="Thank you!" expand="false" type="slide" />
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
-    <resources>
-      <resource url="story_content/external_files/Source_Academic Journal.pdf" image="story_content/5albGF4yuwQ.png" title="Academic Journal Source Sample" />
-      <resource url="story_content/external_files/Source_Book Chapter.pdf" image="story_content/6nK43rYq8PB.png" title="Book Chapter Source Sample" />
-      <resource url="story_content/external_files/Source_Newspaper-Magazine.pdf" image="story_content/5euta5CeJyE.png" title="Newspaper/Magazine Source Sample" />
-      <resource url="story_content/external_files/Source_Encyclopedia.pdf" image="story_content/6M94vdwYPLt.png" title="Encyclopedia Source Sample" />
-      <resource url="http://bit.ly/blm003" image="story_content/url.png" title="Web Source/Scholarly Blog Sample" />
-    </resources>
-  </resource_data>
+  <resource_data description="" />
   <transcript_data>
     <slidetranscripts>
-      <slidetranscript slideid="6Q185H3LjzU.6r9HtnUZoDN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.5VcczjoLFE5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style /&gt;
-      &lt;Span Text="Welcome to Temple University Libraries online module! " /&gt;
+      &lt;Span Text="Welcome to Temple University Libraries online module!" /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.6ZwrdagAbtr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.5j1avZVWFdJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style /&gt;
-      &lt;Span Text="Upon completion of this tutorial, you will be able to do the following: &amp;#xA;"&gt;
-        &lt;Style FontFamily="Calibri" /&gt;
+      &lt;Span Text="Upon completion of this section, you will be able to do the following: &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
@@ -1645,7 +1624,7 @@
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
       &lt;Span Text="Recognize characteristics of different source types&amp;#xA;"&gt;
-        &lt;Style FontFamily="Calibri" /&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
@@ -1655,22 +1634,22 @@
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
       &lt;Span Text="Assess authority and relevance of sources&amp;#xA;"&gt;
-        &lt;Style FontFamily="Calibri" /&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
     &lt;Block&gt;
-      &lt;Style LeadingMargin="13" FirstLineMargin="0"&gt;
-        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single"&gt;
+        &lt;ListStyle ListType="Bullet" Start="1" Color="hlink,00" BulletChar="•" BulletFont="Arial"&gt;
           &lt;BulletPicture Size="0x0" /&gt;
         &lt;/ListStyle&gt;
       &lt;/Style&gt;
       &lt;Span Text="Categorize how sources are used"&gt;
-        &lt;Style FontFamily="Calibri" /&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.6Gd3zFlzCfj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.691iUEdDqYj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style /&gt;
@@ -1722,26 +1701,15 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.5jVjQhI8e0f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.5rjfGDlsKWW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
-      &lt;Span Text="Now let’s take a closer look at several source types and consider each aspect. Click each type to learn more.&amp;#xA;" /&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Span Text="&amp;#xA;" /&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Span Text="Refer to the " /&gt;
-      &lt;Span Text="Resources"&gt;
-        &lt;Style FontIsBold="True" /&gt;
-      &lt;/Span&gt;
-      &lt;Span Text=" tab for full download of each source example."&gt;
-        &lt;Style FontIsBold="False" /&gt;
-      &lt;/Span&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now let’s take a closer look at several source types and consider each aspect. Click each type to learn more." /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.6JgTI3STId7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.5a1PMCLLltC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style LineSpacingRule="Single" SpacingAfter="6" /&gt;
@@ -1761,7 +1729,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.6dPlZyCcOLx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.670D3J8vOjH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="While knowing the characteristics of sources types is helpful, it is also important to consider how you use your sources. Any type of source might be appropriate for a research project, depending on how you use it. &amp;#xA;" /&gt;
@@ -1780,14 +1748,15 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.6Cll7roxAYi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.6QQEFIrlK0U" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
-      &lt;Span Text="Contact a librarian for additional help!" /&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Contact a librarian or specialist for additional help!" /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6Q185H3LjzU.638lTkHD1c4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6KHlBV1Lf4N.6kmMT4QhLcv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style /&gt;
