@@ -1,0 +1,57 @@
+{
+  "version": "3.92.33225.0",
+  "course_id": "6Ia246N8dY1_course_id",
+  "title": "Finding Scores in the Library Catalogue Knowledge Check",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Test Yourself"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6crR3CHzd0b",
+      "title": "Knowledge Check",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6SpiFLG6RX6",
+      "title": "Knowledge Check",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5nKippKo5st",
+      "title": "Knowledge Check",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5sTGwN9LTub",
+      "title": "Knowledge Check",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6AEuvfeTAZi",
+      "title": "Knowledge Check",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6rTQiPhFwAI",
+      "title": "Knowledge Check",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "68QeyojZwRt",
+      "title": "Results",
+      "scene_index": "1.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 476
+  },
+  "stage": {
+    "width": 720,
+    "height": 405
+  }
+}
