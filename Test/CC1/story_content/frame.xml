@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns11111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns11111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
   <layouts>
-    <layout name="npnxnanbsnfns11111000101" font="Arial" controllayout="npnxnanbsnfns11111000101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="pxabnsnfns11111000101" font="Arial" controllayout="pxabnsnfns11111000101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="npxnabnsnfns11111000101" font="Arial" controllayout="npxnabnsnfns11111000101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="npnxnanbnsnfns11111000101" font="Arial" controllayout="npnxnanbnsnfns11111000101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="pxabnsnfns11111000100" font="Arial" controllayout="pxabnsnfns11111000100" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="pnxanbnsnfns11111000100" font="Arial" controllayout="pnxanbnsnfns11111000100" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="pnxanbnsnfns01000000101" font="Arial" controllayout="pnxanbnsnfns01000000101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="npnxnanbnsnfns01001100101" font="Arial" controllayout="npnxnanbnsnfns01001100101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
-    <layout name="pnxanbsnfns11111000101" font="Arial" controllayout="pnxanbsnfns11111000101" colorscheme="npxnabnsnfns11111000101" string_table="npxnabnsnfns11111000101" />
+    <layout name="npnxnanbsnfns11111100101" font="Arial" controllayout="npnxnanbsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="pxabnsnfns11111100101" font="Arial" controllayout="pxabnsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="npxnabnsnfns11111100101" font="Arial" controllayout="npxnabnsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="npnxnanbnsnfns11111100101" font="Arial" controllayout="npnxnanbnsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="pxabnsnfns11111100100" font="Arial" controllayout="pxabnsnfns11111100100" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="pnxanbnsnfns11111100100" font="Arial" controllayout="pnxanbnsnfns11111100100" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="pnxanbnsnfns01000000101" font="Arial" controllayout="pnxanbnsnfns01000000101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="npnxnanbnsnfns01001100101" font="Arial" controllayout="npnxnanbnsnfns01001100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
+    <layout name="pnxanbsnfns11111100101" font="Arial" controllayout="pnxanbsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -23,7 +23,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/5nYzv4Wx4df.png" />
+              <option name="html5_logo_url" value="mobile/6EK8vqbfiEP.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -105,7 +105,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns11111000101">
+    <control_layout name="npnxnanbsnfns11111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -120,7 +120,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -130,7 +130,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111000101">
+    <control_layout name="pxabnsnfns11111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -145,7 +145,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -155,7 +155,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns11111000101">
+    <control_layout name="npxnabnsnfns11111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -170,7 +170,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -180,7 +180,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns11111000101">
+    <control_layout name="npnxnanbnsnfns11111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -195,7 +195,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -205,7 +205,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns11111000100">
+    <control_layout name="pxabnsnfns11111100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -220,7 +220,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -230,7 +230,7 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns11111000100">
+    <control_layout name="pnxanbnsnfns11111100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -245,7 +245,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -305,7 +305,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pnxanbsnfns11111000101">
+    <control_layout name="pnxanbsnfns11111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -320,7 +320,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -332,7 +332,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns11111000101">
+    <colorscheme name="npxnabnsnfns11111100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1510,7 +1510,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns11111000101">
+    <string_table name="npxnabnsnfns11111100101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
