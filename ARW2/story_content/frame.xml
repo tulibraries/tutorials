@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns01011100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns01011100001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
   <layouts>
     <layout name="npnxnanbsnfns01011100001" font="Arial" controllayout="npnxnanbsnfns01011100001" colorscheme="npxnabnsnfns01011100001" string_table="npxnabnsnfns01011100001" />
     <layout name="pxabnsnfns01011100001" font="Arial" controllayout="pxabnsnfns01011100001" colorscheme="npxnabnsnfns01011100001" string_table="npxnabnsnfns01011100001" />
@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/667tXW2Kd3N.png" />
+              <option name="html5_logo_url" value="mobile/6mkZY3WN95J.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -48,6 +48,7 @@
             </options>
           </option>
           <option name="logoAltText" />
+          <option name="logoAltTextEnabled" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -1570,7 +1571,21 @@
       <string id="video_transcript_select_track">Select track</string>
       <string id="video_transcript_title">Transcripts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="comma_key">Comma</string>
       <string id="continue">Continue</string>
+      <string id="period_key">Period</string>
+      <string id="question_mark_key">Question mark</string>
+      <string id="outline_container">Menu</string>
+      <string id="acc_search_results_status">%count% results found for %term%</string>
+      <string id="invalid_prompt_button">OK</string>
+      <string id="invalid_prompt_message">You must complete the question before submitting.</string>
+      <string id="invalid_prompt_title">Invalid Answer</string>
+      <string id="print_prompt_button">OK</string>
+      <string id="print_prompt_title">Enter name</string>
+      <string id="print_prompt_message">Enter your name in the field below:</string>
+      <string id="timer_prompt_button">OK</string>
+      <string id="timer_prompt_title">Time Limit Exceeded</string>
+      <string id="timer_prompt_message">You have reached the time limit set for the quiz. Press 'OK' to continue.</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1589,12 +1604,12 @@
         <slidelink slideid="_player.6LOvKRAy0P9.5ai44emPD8h" displaytext="Main Menu" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6BZDEmahsXk" displaytext="Recap" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6p25kpIHCKd" displaytext="Define Your Topic" expand="false" type="slide" />
-        <slidelink slideid="_player.6LOvKRAy0P9.6QUA1wn2XFS" displaytext="Define Your Topic" expand="false" type="slide" />
+        <slidelink slideid="_player.6LOvKRAy0P9.6QUA1wn2XFS" displaytext="How to Define Your Topic" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6G259sW8iIr" displaytext="Search in a database" expand="false" type="slide" />
-        <slidelink slideid="_player.6LOvKRAy0P9.6HTe4KW33Dt" displaytext="Search in a database" expand="false" type="slide" />
+        <slidelink slideid="_player.6LOvKRAy0P9.6HTe4KW33Dt" displaytext="Search results in a database" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.5idfx42Ht2Z" displaytext="So what now?" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6MfvRX5Ntpk" displaytext="Understand your topic" expand="false" type="slide" />
-        <slidelink slideid="_player.6LOvKRAy0P9.6c2t5IQIN50" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6LOvKRAy0P9.6c2t5IQIN50" displaytext="Knowledge Check 1" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6HDewbHNkpK" displaytext="Find Search Terms" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6dRC6CAKayF" displaytext="Searching with Keywords" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6Gywm5hoeou" displaytext="Think about your topic and fill in the fields below" expand="false" type="slide" />
@@ -1604,7 +1619,7 @@
         <slidelink slideid="_player.6LOvKRAy0P9.69Sj57dOz7f" displaytext="Use a Database" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.5cuthdBSrTz" displaytext="Use a Database" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.64qkYAl5lXw" displaytext="Database search features" expand="false" type="slide" />
-        <slidelink slideid="_player.6LOvKRAy0P9.5c6wz7i3z3D" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6LOvKRAy0P9.5c6wz7i3z3D" displaytext="Knowledge Check 2" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.6nPaEHKREgj" displaytext="Workshop Recap" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.5g5lrAzICU2" displaytext="Contact Us" expand="false" type="slide" />
         <slidelink slideid="_player.6LOvKRAy0P9.62zIbhLat9P" displaytext="Thank you!" expand="false" type="slide" />

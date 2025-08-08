@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_63XQMHCgmay_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_5tC4sVS04uL_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
@@ -53,13 +53,13 @@
   <organizations default="Analytical_Reading_&amp;_Writing_-_Workshop_2_ORG">
     <organization identifier="Analytical_Reading_&amp;_Writing_-_Workshop_2_ORG">
       <title>Analytical Reading &amp; Writing - Workshop 2</title>
-      <item identifier="Analytical_Reading_&amp;_Writing_SCO" isvisible="true" identifierref="__63XQMHCgmay_course_id_RES">
+      <item identifier="Analytical_Reading_&amp;_Writing_SCO" isvisible="true" identifierref="__5tC4sVS04uL_course_id_RES">
         <title>Analytical Reading &amp; Writing</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__63XQMHCgmay_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__5tC4sVS04uL_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/5tU96UPhEjw_80.jpg" />
       <file href="mobile/5iqJYCRXO5F_80.jpg" />
@@ -76,6 +76,8 @@
       <file href="mobile/5kbL2YBAzpw.png" />
       <file href="mobile/6V0gpL3ByfP_80_P_0_0_1993_1152.jpg" />
       <file href="mobile/5Wp0HFIB0od.jpg" />
+      <file href="mobile/5yJ1g9qmQVW.png" />
+      <file href="mobile/5yfMumqv2qv.png" />
       <file href="mobile/5Yo3kQ46k6e_P_438_235_1166_1204.png" />
       <file href="mobile/5vhUbR5eooN_80_Q2FFFFFF_P_0_0_2048_1185.jpg" />
       <file href="mobile/6bogo4yekrQ_80_P_392_0_1251_1152.jpg" />
@@ -85,8 +87,11 @@
       <file href="mobile/6kqKjM5Vasr_R111111.jpg" />
       <file href="mobile/5VtenGPi44W_X_80_P_1_211_1996_1154.jpg" />
       <file href="mobile/6j872YSIZKH_80_P_0_0_2048_1184.jpg" />
-      <file href="mobile/5sqNnVrxG9b.png" />
-      <file href="mobile/69xg11BL6VT.png" />
+      <file href="mobile/6Yl1TYOJaHv.png" />
+      <file href="mobile/5s2iRxnUNC8.png" />
+      <file href="mobile/6VlJp5KlBay.png" />
+      <file href="mobile/6ENOXtyhApa.png" />
+      <file href="mobile/5WzDNRqnHio.png" />
       <file href="mobile/5a6c9flo5TI_80_P_54_0_1993_1152.jpg" />
       <file href="mobile/5xUU9bUEVNW.png" />
       <file href="mobile/6lPQFPYenDi.png" />
@@ -100,7 +105,7 @@
       <file href="mobile/5tcAl0O8rMc.png" />
       <file href="mobile/6HAO1GQPXWq_M_224_224.png" />
       <file href="meta.xml" />
-      <file href="mobile/667tXW2Kd3N.png" />
+      <file href="mobile/6mkZY3WN95J.png" />
       <file href="story_content/url.png" />
       <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_5z3qJX4oHxr_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_5Z11qxN09C7_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
@@ -53,13 +53,13 @@
   <organizations default="Analytical_Reading_&amp;_Writing_Module_1_ORG">
     <organization identifier="Analytical_Reading_&amp;_Writing_Module_1_ORG">
       <title>Analytical Reading &amp; Writing Module 1</title>
-      <item identifier="ENG802_SCO" isvisible="true" identifierref="__5z3qJX4oHxr_course_id_RES">
+      <item identifier="ENG802_SCO" isvisible="true" identifierref="__5Z11qxN09C7_course_id_RES">
         <title>Analytical Reading &amp; Writing Module 1</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__5z3qJX4oHxr_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__5Z11qxN09C7_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/5mGkYan8bCI_80.jpg" />
       <file href="mobile/6U362CDJqlo_80_Q2FFFFFF_P_0_52_2048_1183.jpg" />
@@ -74,7 +74,7 @@
       <file href="story_content/5sHjX9HAVkN_transcripts.js" />
       <file href="mobile/6kqKjM5Vasr_R111111.jpg" />
       <file href="mobile/5wF8aYMjSSB_80.jpg" />
-      <file href="mobile/6G17qOjNwUY_P_0_0_1088_550.png" />
+      <file href="mobile/5vOlLLynp0k.png" />
       <file href="mobile/5fxIFrMPRr9_P_0_0_1092_588.png" />
       <file href="mobile/6VoQbsXAqc4_P_0_0_1010_550.png" />
       <file href="mobile/6C0Ydt2KYDr_P_0_0_1045_602.png" />
@@ -83,7 +83,6 @@
       <file href="mobile/6C0Ydt2KYDr.png" />
       <file href="mobile/6VoQbsXAqc4.png" />
       <file href="mobile/5fxIFrMPRr9.png" />
-      <file href="mobile/6G17qOjNwUY.png" />
       <file href="mobile/6Wo4GCv7VUu_80.jpg" />
       <file href="mobile/5iqJYCRXO5F_80_Q2FFFFFF_P_0_123_2048_1186.jpg" />
       <file href="mobile/6eWnkxy3wCC_X_80.jpg" />
@@ -126,7 +125,7 @@
       <file href="mobile/65fbHH8GHqX_M_68_68.png" />
       <file href="mobile/6piSe1fpO2w_M_56_56.png" />
       <file href="story_content/6Ty8iOgDWx7.html" />
-      <file href="mobile/6Ty8iOgDWx76PLdTncOKZf{Width=508.8166, Height=286.2094}Light.png" />
+      <file href="mobile/6Ty8iOgDWx76lYYwEQQ8Iz{Width=508.8166, Height=286.2094}Light.png" />
       <file href="mobile/5WGsYR5BWNg.png" />
       <file href="mobile/6gDyeWmmrN0.png" />
       <file href="mobile/6Bz0oD4ZnUB.png" />
@@ -139,11 +138,8 @@
       <file href="mobile/5VulLT0X228.png" />
       <file href="mobile/5hihjyrp2RJ.png" />
       <file href="mobile/6GxzNCpiJop_80_P_0_0_2048_1177.jpg" />
-      <file href="mobile/5UuViWqsV1l.png" />
-      <file href="mobile/5tcAl0O8rMc.png" />
-      <file href="mobile/6HAO1GQPXWq_M_224_224.png" />
       <file href="meta.xml" />
-      <file href="mobile/64fzajvvEty.png" />
+      <file href="mobile/6XCiiPVjMIX.png" />
       <file href="story_content/url.png" />
       <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />
@@ -186,7 +182,6 @@
       <file href="mobile/Shape5oZp8lX0sqm.png" />
       <file href="mobile/Shape6XPOrCN3LB5.png" />
       <file href="mobile/Shape5myrOhnzAFa.png" />
-      <file href="mobile/Shape61T6UjCNQeD.png" />
       <file href="mobile/Shape6hQyRieVt0W.png" />
       <file href="mobile/Shape61ODdpOD2Yu.png" />
       <file href="mobile/Shape5lzRgWRtTKP.png" />
