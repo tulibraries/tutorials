@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_6LCOnsDN1W1_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_63nlcSSkjKi_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
@@ -53,13 +53,13 @@
   <organizations default="Introduction_to_Sources_ORG">
     <organization identifier="Introduction_to_Sources_ORG">
       <title>Introduction to Sources</title>
-      <item identifier="Introduction_to_Sources_SCO" isvisible="true" identifierref="__6LCOnsDN1W1_course_id_RES">
+      <item identifier="Introduction_to_Sources_SCO" isvisible="true" identifierref="__63nlcSSkjKi_course_id_RES">
         <title>Introduction to Sources</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__6LCOnsDN1W1_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__63nlcSSkjKi_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/5VFBPk96fC2_80_P_0_154_2048_1183.jpg" />
       <file href="mobile/6U362CDJqlo_80_Q2FFFFFF_P_0_52_2048_1183.jpg" />
@@ -72,13 +72,12 @@
       <file href="mobile/poster_6nlUnfX9GxF_video_6reG6Jkqdjr_22_48_506x286.jpg" />
       <file href="story_content/6nlUnfX9GxF_transcripts.js" />
       <file href="mobile/6kqKjM5Vasr_R111111.jpg" />
-      <file href="mobile/6GxzNCpiJop_80_P_0_0_2048_1177.jpg" />
-      <file href="mobile/5UuViWqsV1l.png" />
-      <file href="mobile/6HAO1GQPXWq_M_224_224.png" />
-      <file href="mobile/615Dteg4hsf.png" />
+      <file href="mobile/5iqJYCRXO5F_80_Q2FFFFFF_P_0_123_2048_1186.jpg" />
+      <file href="mobile/5vD6ZcNUFtk_80.jpg" />
+      <file href="mobile/6BQIX5fBDRk_P_0_0_1689_696.png" />
       <file href="meta.xml" />
-      <file href="mobile/6KtohsrmzGS.png" />
-      <file href="story_content/64WWPFRTvIB.png" />
+      <file href="mobile/6fdlKbX16WW.png" />
+      <file href="story_content/6MsJgwlYIRc.png" />
       <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />
       <file href="story_content/external_files/The Information Life Cycle Video Transcript.docx" />
@@ -95,18 +94,21 @@
       <file href="mobile/Shape5czPmNvoSh6.png" />
       <file href="mobile/Shape6NjilLoYaOT.png" />
       <file href="mobile/Shape5oJ28JnMfnf.png" />
-      <file href="mobile/Shape66yoj6TIleX.png" />
-      <file href="mobile/Shape6NykG3OYbmz.png" />
+      <file href="mobile/Shape6aNLoIo6xqa.png" />
+      <file href="mobile/Shape5gYMXhIzeMN.png" />
+      <file href="mobile/Shape6CHulQrc7Kj.png" />
       <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5c9lorcOzZg.js" />
       <file href="html5/data/js/5jPQHnQg8ha.js" />
       <file href="html5/data/js/5mQVnZrahKs.js" />
       <file href="html5/data/js/5n0Xj7f4TgG.js" />
       <file href="html5/data/js/6aYSP6DIV4A.js" />
       <file href="html5/data/js/6CNG8BaUME0.js" />
+      <file href="html5/data/js/6da7wUBrK8x.js" />
       <file href="html5/data/js/6eCXNpiIwrr.js" />
       <file href="html5/data/js/6hNu1DDzJe1.js" />
+      <file href="html5/data/js/6MXFhRk8yeg.js" />
       <file href="html5/data/js/6Nj5exz1xXb.js" />
-      <file href="html5/data/js/6QbjaITW9SY.js" />
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
