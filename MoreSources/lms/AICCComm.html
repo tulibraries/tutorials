@@ -390,7 +390,54 @@ function SubmitFormUsingXMLHTTP(strAICCURL, strAICCSID, strRequestType, strAICCD
         }
     };
 
-    objXMLHTTP.send(strPostData);
+  try {
+    objXMLHTTP.send (strPostData);
+  }
+  catch (ex) {
+    WriteToDebug("Caught exception on .send", ex);
+    if (objXMLHTTP.status === 0 && typeof fetch === "function" && "keepalive" in new Request("")) {
+      WriteToDebug("Falling back to fetch w/ keepalive for 0 status request");
+      try {
+        fetch(
+          strAICCURL,
+          {
+            method: "POST",
+            mode: "cors",
+            cache: "no-cache",
+            credentials: "include",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body: strPostData,
+            keepalive: true
+          }
+        ).then(
+          function (response) {
+            strReturn = response.statusText;
+
+            ProcessLMSResult(strRequestType, strReturn);
+          }
+        ).catch(
+          function (e) {
+            WriteToDebug("Error returned from fetch fallback request: " + e.message);
+          }
+        );
+
+        return;
+      }
+      catch (e) {
+        // This will likely never get hit, but we don't want any error to bubble up from this method
+        WriteToDebug("Error making fetch fallback request: " + e.message);
+      }
+    }
+    else {
+      //
+      // if the conditions for matching to try the fetch w/ keep alive don't hit
+      // then re-throw the original exception
+      //
+      throw ex;
+    }
+  }
 }
 
 function SubmitFormUsingSyncXHR(strAICCURL, strAICCSID, strRequestType, strAICCData) {
@@ -952,7 +999,7 @@ function ProcessUnload(){
 }
 </script>
 </head>
-<body onload="DetectPreferredCommMethod();" onunload="ProcessUnload();" onbeforeunload="ProcessUnload();">
+<body onload="DetectPreferredCommMethod();" pagehide="ProcessUnload();" onbeforeunload="ProcessUnload();">
 
 <iframe id="AICCFrame"
   name="AICCFrame"
