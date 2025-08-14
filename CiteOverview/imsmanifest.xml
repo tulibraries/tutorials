@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_6PcBA45NdFW_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_5yM7jDQIgzo_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
@@ -53,25 +53,24 @@
   <organizations default="Citations_Overview_ORG">
     <organization identifier="Citations_Overview_ORG">
       <title>Citations Overview</title>
-      <item identifier="Citations_SCO" isvisible="true" identifierref="__6PcBA45NdFW_course_id_RES">
+      <item identifier="Citations_SCO" isvisible="true" identifierref="__5yM7jDQIgzo_course_id_RES">
         <title>Citations Overview</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__6PcBA45NdFW_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__5yM7jDQIgzo_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/60FmFUT33xa_80_P_0_0_2048_1187.jpg" />
       <file href="mobile/69ackeod8l4_80_P_16_202_2031_1162.jpg" />
       <file href="mobile/6RqjlxXpBSX_P_0_0_542_980.png" />
       <file href="mobile/5vhUbR5eooN_80_Q2FFFFFF_P_0_0_2048_1185.jpg" />
-      <file href="mobile/6GxzNCpiJop_80_P_0_0_2048_1177.jpg" />
-      <file href="mobile/6OuAJr5SqDY_80_Q2FFFFFF.jpg" />
-      <file href="mobile/5n3tnASpM6v.png" />
-      <file href="mobile/5VXCF8fHO6z.png" />
-      <file href="mobile/6HAO1GQPXWq_M_224_224.png" />
+      <file href="mobile/5d28TTQVrlX_80_P_0_128_1244_700.jpg" />
+      <file href="mobile/5iqJYCRXO5F_80_Q2FFFFFF_P_0_123_2048_1186.jpg" />
+      <file href="mobile/5vD6ZcNUFtk_80.jpg" />
+      <file href="mobile/6BQIX5fBDRk_P_0_0_1689_696.png" />
       <file href="meta.xml" />
-      <file href="mobile/6F61V58v4Dv.png" />
+      <file href="mobile/6C0wUEK1Riw.png" />
       <file href="story_content/url.png" />
       <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />
@@ -80,17 +79,20 @@
       <file href="mobile/Shape6GHRWm6yZQx.png" />
       <file href="mobile/Shape6roS0FRu2Y9.png" />
       <file href="mobile/Shape64jrMzg7xni.png" />
-      <file href="mobile/Shape5u2RPOtNuW5.png" />
-      <file href="mobile/Shape6JA5yvAo8xE.png" />
+      <file href="mobile/Shape5eVQCKYqGXS.png" />
+      <file href="mobile/Shape60x4BIJ90uw.png" />
+      <file href="mobile/Shape6Iy83bLa4bq.png" />
       <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5dfZagUW6gB.js" />
       <file href="html5/data/js/5dU1B0WURiM.js" />
       <file href="html5/data/js/5kLzMejT1xt.js" />
       <file href="html5/data/js/5rSO6YlU0bP.js" />
+      <file href="html5/data/js/5XA0v6lvHnx.js" />
+      <file href="html5/data/js/5YWZX18MLwD.js" />
       <file href="html5/data/js/65kWucTwKew.js" />
       <file href="html5/data/js/68Qkrgxij71.js" />
       <file href="html5/data/js/6I84lM7vaJ9.js" />
       <file href="html5/data/js/6ISpjfXsA1A.js" />
-      <file href="html5/data/js/6kbQf1grufL.js" />
       <file href="html5/data/js/6kKHphz2y6o.js" />
       <file href="html5/data/js/6ppYvQwyDts.js" />
       <file href="html5/data/js/data.js" />

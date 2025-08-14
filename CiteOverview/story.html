@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 x64 - http://www.articulate.com  -->
-  <!-- version: 3.89.32618.0 -->
+  <!-- version: 3.102.35072.0 -->
   <title>Citations Overview</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -24,20 +24,20 @@
       tinCanPresent: false,
       cmi5Present: false,
       aoSupport: false,
-      scale: 'noscale',
+      scale: 'Scaled',
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#FFFFFF',
-      features: 'DropInBase,DropInCore,DropInInteractions,DropInMisc,DropInVectors,DropInVideo,LayerPresentAsDialog,MultipleQuizTracking,UpdatedThemeEditor',
+      features: 'DropInBase,MultipleQuizTracking,PlayerSizeOption',
       themeName: 'unified',
       preloaderColor: '#8C8C8C',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
       aid: 'auth0|5c87c0d5ec53f34b73b27c46',
-      cid: '6688d276-b16e-4ab2-a3fb-575234cec24c',
-      playerVersion: '3.89.32618.0',
-      publishTimestamp: '2024-07-02T14:31:19.5197890Z',
+      cid: 'bbc988d0-b7a3-4593-8ffe-86dfb00632fb',
+      playerVersion: '3.102.35072.0',
+      publishTimestamp: '2025-08-14T15:03:24.0482042Z',
       maxIosVideoElements: 10,
       connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: true, mode: 'disabled' },
       hasFeature: function(feature) {
@@ -62,6 +62,15 @@
       }
 
     };
+
+    if (window.flagsUnderTest != null) {
+      window.globals.features = window.flagsUnderTest.reduce((accum, feature) => {
+        if (!accum.includes(feature)) {
+          accum.push(feature);
+        }
+        return accum;
+      }, window.globals.features.split(',')).join();
+    }
   </script>
   <script>
     var isIe11 = ('ActiveXObject' in window || window.MSBlobBuilder != null)
@@ -73,7 +82,7 @@
   </script>
 
   <script>
-    if (window.globals.hasFeature('MultiLanguageSinglePackageSupport')) {
+    if (window.globals.hasFeature('Localization')) {
       
       
     }
@@ -425,7 +434,7 @@
     function disableKeys() {
       if (DS.views && DS.views.nsStack && DS.views.nsStack.length === 1) {
         DS.views.nsStack[0].tabReachable = false
-        DS.views.nsStack[0].updateTabIndex(true, true);
+        DS.views.nsStack[0].updateTabIndex(true);
       }
 
       accStyle.innerHTML = '.acc-shadow-dom { display: none; }';
