@@ -1,0 +1,78 @@
+{
+  "version": "3.102.35072.0",
+  "course_id": "6Ljd9RYzwjA",
+  "title": "Temple Certificate Template",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Intro Scene"
+    },
+    {
+      "title": "Intro Scene"
+    },
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6bA1KFPE4gP",
+      "title": "Intro Slide",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5pcsR50Q1Vn",
+      "title": "Thank you!",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5r7zfZcRF6F",
+      "title": "Course Certificate",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6QzYLkRVOqT",
+      "title": "Certificate",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6i4DY7aRxJH",
+      "title": "Intro Slide",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "5wwB7KrhMPJ",
+      "title": "Thank you!",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "69npR6i0t0G",
+      "title": "Course Certificate",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "5b0pwPPVgOV",
+      "title": "Certificate",
+      "scene_index": "2.4"
+    },
+    {
+      "id": "68l55utl9T6",
+      "title": "Course Certificate",
+      "scene_index": "3.1"
+    },
+    {
+      "id": "6QFGiF5Z4hy",
+      "title": "Certificate",
+      "scene_index": "3.2"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 523
+  },
+  "stage": {
+    "width": 720,
+    "height": 405
+  }
+}
