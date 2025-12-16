@@ -74,7 +74,10 @@ storyline =
  "videoCreator" : player.GetVar("videoCreator"),
  "videoCreatorURL" : player.GetVar("videoCreatorURL"),
  "videoLicense" : player.GetVar("videoLicense"),
- "videoLicenseURL" : player.GetVar("videoLicenseURL")
+ "videoLicenseURL" : player.GetVar("videoLicenseURL"),
+ "Takeaway" : player.GetVar("Takeaway"),
+ "Question" : player.GetVar("Question"),
+ "Name" : player.GetVar("Name")
 }
 }
 
