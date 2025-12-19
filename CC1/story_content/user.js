@@ -61,7 +61,10 @@ storyline =
  "KC8" : player.GetVar("KC8"),
  "KC9" : player.GetVar("KC9"),
  "KC10" : player.GetVar("KC10"),
- "KC11" : player.GetVar("KC11")
+ "KC11" : player.GetVar("KC11"),
+ "Takeaway" : player.GetVar("Takeaway"),
+ "Question" : player.GetVar("Question"),
+ "Name" : player.GetVar("Name")
 }
 
 }
