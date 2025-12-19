@@ -2,26 +2,23 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6YwI4RLFDlt":
+      case "6FrFhORF9qD":
         Script1();
         break;
-      case "6OtnZtjzO05":
+      case "5Y9X2VhMOGA":
         Script2();
         break;
-      case "6SDQ8o9oLn4":
+      case "6glw5rzHtAN":
         Script3();
         break;
-      case "5dFSWkucV1D":
+      case "5iSBo96C6GX":
         Script4();
         break;
-      case "6AQwVqOrwHb":
+      case "5rfUgM4rKVu":
         Script5();
         break;
-      case "5wEyxppmyM1":
+      case "5okkvAR8b30":
         Script6();
-        break;
-      case "5slScMurXa3":
-        Script7();
         break;
   }
 }
@@ -48,19 +45,15 @@ const duration = 750;
 const easing = 'ease-out';
 const id = '5gsaYVV9p7y';
 const teeterAmount = 4;
-const signs = ['-', '', '-'];
-
 player.addForTriggers(
 id,
-target.animate([
-{ rotate: '0deg' },
-{ rotate: `${signs[0] + teeterAmount}deg` },
-{ rotate: '0deg' },
-{ rotate: `${signs[1] + teeterAmount}deg` },
-{ rotate: '0deg' },
-{ rotate: `${signs[2] + teeterAmount}deg` },
-{ rotate: '0deg' }
-],
+target.animate(
+[ {rotate: '0deg' }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: `${teeterAmount}deg` }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: '0deg' } ]
+,
   { fill: 'forwards', duration, easing }
 )
 );
@@ -73,44 +66,15 @@ const duration = 750;
 const easing = 'ease-out';
 const id = '626LyAQARfn';
 const teeterAmount = 4;
-const signs = ['-', '', '-'];
-
 player.addForTriggers(
 id,
-target.animate([
-{ rotate: '0deg' },
-{ rotate: `${signs[0] + teeterAmount}deg` },
-{ rotate: '0deg' },
-{ rotate: `${signs[1] + teeterAmount}deg` },
-{ rotate: '0deg' },
-{ rotate: `${signs[2] + teeterAmount}deg` },
-{ rotate: '0deg' }
-],
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script3 = function()
-{
-  const target = object('5Xvawtarfyf');
-const duration = 750;
-const easing = 'ease-out';
-const id = '626LyAQARfn';
-const teeterAmount = 4;
-const signs = ['-', '', '-'];
-
-player.addForTriggers(
-id,
-target.animate([
-{ rotate: '0deg' },
-{ rotate: `${signs[0] + teeterAmount}deg` },
-{ rotate: '0deg' },
-{ rotate: `${signs[1] + teeterAmount}deg` },
-{ rotate: '0deg' },
-{ rotate: `${signs[2] + teeterAmount}deg` },
-{ rotate: '0deg' }
-],
+target.animate(
+[ {rotate: '0deg' }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: `${teeterAmount}deg` }, 
+{rotate: `-${teeterAmount}deg` }, 
+{rotate: '0deg' } ]
+,
   { fill: 'forwards', duration, easing }
 )
 );
