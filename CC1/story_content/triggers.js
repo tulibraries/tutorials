@@ -2,23 +2,20 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6FrFhORF9qD":
+      case "6K0v6dcYQUi":
         Script1();
         break;
-      case "5Y9X2VhMOGA":
+      case "6ie42yIr1CV":
         Script2();
         break;
-      case "6glw5rzHtAN":
+      case "5sWDzQOJqfk":
         Script3();
         break;
-      case "5iSBo96C6GX":
+      case "5hGxLW63c2H":
         Script4();
         break;
-      case "5rfUgM4rKVu":
+      case "5kw3stZNL8A":
         Script5();
-        break;
-      case "5okkvAR8b30":
-        Script6();
         break;
   }
 }
@@ -39,27 +36,6 @@ var hidePointer = player.hidePointer;
 var slideWidth = player.slideWidth;
 var slideHeight = player.slideHeight;
 window.Script1 = function()
-{
-  const target = object('6kD3QhHxYTj');
-const duration = 750;
-const easing = 'ease-out';
-const id = '5gsaYVV9p7y';
-const teeterAmount = 4;
-player.addForTriggers(
-id,
-target.animate(
-[ {rotate: '0deg' }, 
-{rotate: `-${teeterAmount}deg` }, 
-{rotate: `${teeterAmount}deg` }, 
-{rotate: `-${teeterAmount}deg` }, 
-{rotate: '0deg' } ]
-,
-  { fill: 'forwards', duration, easing }
-)
-);
-}
-
-window.Script2 = function()
 {
   const target = object('6kp2GxYsH0N');
 const duration = 750;

@@ -13,7 +13,7 @@ var showPointer = player.showPointer;
 var hidePointer = player.hidePointer;
 var slideWidth = player.slideWidth;
 var slideHeight = player.slideHeight;
-window.Script3 = function()
+window.Script2 = function()
 {
   let currentTime = new Date();
 let month = currentTime.getMonth() + 1;
@@ -28,7 +28,7 @@ let player = GetPlayer();
 player.SetVar("todaysDate", dateString);
 }
 
-window.Script4 = function()
+window.Script3 = function()
 {
   var head = document.getElementsByTagName('head')[0];
 var script = document.createElement('script');
@@ -37,7 +37,7 @@ script.type = 'text/javascript';
 head.appendChild(script)
 }
 
-window.Script5 = function()
+window.Script4 = function()
 {
   var player = GetPlayer();
  
@@ -69,7 +69,7 @@ storyline =
 
 }
 
-window.Script6 = function()
+window.Script5 = function()
 {
   //DELAY SO JQUERY LIBRARY IS LOADED
 setTimeout(function (){
