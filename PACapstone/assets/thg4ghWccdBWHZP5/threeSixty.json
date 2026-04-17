@@ -1,0 +1,113 @@
+{
+  "version": "3.113.36519.0",
+  "course_id": "60Bp5N7jnlz",
+  "title": "Protocols Knowledge Check",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Protocol Knowlwdge Check"
+    },
+    {
+      "title": "PICO Knowledge Check"
+    },
+    {
+      "title": "Screening Knowledge Check"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6qsdQs1Ifsk",
+      "title": "Results Slide",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6406Y5deGhg",
+      "title": "Reframe the research question as a formal PICO question.",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "6fSz2IKlVND",
+      "title": "Consider the following scenario.",
+      "scene_index": "3.1"
+    },
+    {
+      "id": "6NoIy9YSN5X",
+      "title": "What is the primary purpose of a systematic review protocol? ",
+      "scene_index": "Q2.1"
+    },
+    {
+      "id": "6NNCT9FQuFU",
+      "title": "Which of the following is NOT typically included in a protocol?",
+      "scene_index": "Q2.2"
+    },
+    {
+      "id": "6YKgobmQ0Td",
+      "title": "PROSPERO is:",
+      "scene_index": "Q2.3"
+    },
+    {
+      "id": "6DhvJIiuY0n",
+      "title": "The search strategy in a protocol should:",
+      "scene_index": "Q2.4"
+    },
+    {
+      "id": "6TfZBRZ74yG",
+      "title": "A protocol helps reduce bias in the conduct of a systematic review. ",
+      "scene_index": "Q2.5"
+    },
+    {
+      "id": "5sY1WizMzQa",
+      "title": "Amendments to a protocol should not be documented once the review begins.",
+      "scene_index": "Q2.6"
+    },
+    {
+      "id": "6oya65ezRJG",
+      "title": "Data extraction forms should be piloted as part of protocol planning. ",
+      "scene_index": "Q2.7"
+    },
+    {
+      "id": "6KFi3hPDVrt",
+      "title": "Risk of bias assessment tools must be pre-specified in the protocol.",
+      "scene_index": "Q2.8"
+    },
+    {
+      "id": "6YJIuRzx2X6",
+      "title": "What is the difference between eligibility criteria and inclusion criteria?",
+      "scene_index": "Q2.9"
+    },
+    {
+      "id": "5fUi8nptYvw",
+      "title": "Why is it important to pre-specify outcomes of interest in a protocol? ",
+      "scene_index": "Q2.10"
+    },
+    {
+      "id": "5q90VV3rHh0",
+      "title": "List two examples of databases that should be searched in most health-related systematic reviews. ",
+      "scene_index": "Q2.11"
+    },
+    {
+      "id": "5ylE483jVgO",
+      "title": "You are preparing a protocol for a review on the effectiveness of mindfulness interventions for reducing stress in healthcare workers. What elements must you include in your protocol to ensure transparency and reproducibility?",
+      "scene_index": "Q2.12"
+    },
+    {
+      "id": "5q4YwBV4a9P",
+      "title": "Your protocol specifies that only randomized controlled trials (RCTs) will be included. During screening, you identify a large, high-quality cohort study that directly addresses your question. What should you do, and why? ",
+      "scene_index": "Q2.13"
+    },
+    {
+      "id": "62VC4iCVtTA",
+      "title": "The protocol states that two independent reviewers will screen abstracts and full texts. One reviewer becomes unavailable during the study. How should you handle this deviation? ",
+      "scene_index": "Q2.14"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 611
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

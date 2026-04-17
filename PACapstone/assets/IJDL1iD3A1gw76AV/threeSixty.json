@@ -1,0 +1,329 @@
+{
+  "version": "3.113.36519.0",
+  "course_id": "60Bp5N7jnlz",
+  "title": "Narrative Reviews Knowledge Check",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Protocol Knowlwdge Check"
+    },
+    {
+      "title": "PICO Knowledge Check"
+    },
+    {
+      "title": "Screening Knowledge Check"
+    },
+    {
+      "title": "Critical Appraisal Knowledge Check"
+    },
+    {
+      "title": "Summative Evaluation"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6qsdQs1Ifsk",
+      "title": "Results Slide",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6406Y5deGhg",
+      "title": "Reframe the research question as a formal PICO question.",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "6fSz2IKlVND",
+      "title": "Consider the following scenario.",
+      "scene_index": "3.1"
+    },
+    {
+      "id": "6jH1xgrgBYu",
+      "title": "Scenario 1",
+      "scene_index": "4.1"
+    },
+    {
+      "id": "6mkPKFh8xHc",
+      "title": "Scenario 2",
+      "scene_index": "4.2"
+    },
+    {
+      "id": "6ltJWgHOIRH",
+      "title": "Scenario 3",
+      "scene_index": "4.3"
+    },
+    {
+      "id": "5huTnoO51Iq",
+      "title": "Narrative Review Knowledge Check",
+      "scene_index": "5.1"
+    },
+    {
+      "id": "62GnsMaieaO",
+      "title": "Knowledge Check Results",
+      "scene_index": "5.9"
+    },
+    {
+      "id": "62I6e1LbY3C",
+      "title": "Course Certificate",
+      "scene_index": "5.10"
+    },
+    {
+      "id": "5YkFKxKW0s1",
+      "title": "Certificate",
+      "scene_index": "5.11"
+    },
+    {
+      "id": "5xZsSnjJ9vY",
+      "title": "What is the primary purpose of a narrative (literature) review in a research project? ",
+      "scene_index": "Q1.1"
+    },
+    {
+      "id": "5uyytwhppOs",
+      "title": "Which of the following are characteristics of a strong narrative review? (Select all.)",
+      "scene_index": "Q1.2"
+    },
+    {
+      "id": "5hdg3hTkPrn",
+      "title": "Which of the following are recommended steps in writing a narrative review? (Select all.)",
+      "scene_index": "Q1.3"
+    },
+    {
+      "id": "6gCpWMOn56k",
+      "title": "What is an important first step in writing a narrative review?",
+      "scene_index": "Q1.4"
+    },
+    {
+      "id": "6JO7FA2quKR",
+      "title": "The first step in conducting a narrative review is to: ",
+      "scene_index": "Q1.5"
+    },
+    {
+      "id": "5qyKxw1zhbv",
+      "title": "When organizing a narrative review, which structure is most appropriate?",
+      "scene_index": "Q1.6"
+    },
+    {
+      "id": "6K0ZQdpqrQh",
+      "title": "What is a common mistake in narrative or literature reviews?\t",
+      "scene_index": "Q1.7"
+    },
+    {
+      "id": "6TKkFI9maoy",
+      "title": "Which section typically introduces the topic and purpose?",
+      "scene_index": "Q1.8"
+    },
+    {
+      "id": "6HHztzOvJH6",
+      "title": "What should be included in the conclusion of a narrative review?",
+      "scene_index": "Q1.9"
+    },
+    {
+      "id": "5wVxeywdySz",
+      "title": "Why is it important to evaluate strengths and weaknesses of studies?",
+      "scene_index": "Q1.10"
+    },
+    {
+      "id": "5WICZQ7uen7",
+      "title": "True or False: A narrative review should only summarize sources and not interpret or evaluate them. ",
+      "scene_index": "Q1.11"
+    },
+    {
+      "id": "6737SzlinZp",
+      "title": "True or False: Identifying trends, debates, and gaps in the literature is an important part of the narrative (literature) review process. ",
+      "scene_index": "Q1.12"
+    },
+    {
+      "id": "6LsD2DjHtXu",
+      "title": "What is “synthesis” in a narrative (literature) review?",
+      "scene_index": "Q1.13"
+    },
+    {
+      "id": "60xz2Ot3S6w",
+      "title": "What does “synthesis” mean in a narrative (literature) review?",
+      "scene_index": "Q1.14"
+    },
+    {
+      "id": "66vwrK5bBBH",
+      "title": "Which of the following best represents a well-structured PICO question?",
+      "scene_index": "Q1.15"
+    },
+    {
+      "id": "5Z6KHrBtdjJ",
+      "title": "When reporting a narrative review, authors should:",
+      "scene_index": "Q1.16"
+    },
+    {
+      "id": "669P0MwhNOJ",
+      "title": "True or False: A narrative review plan should include the search strategy and keywords used.",
+      "scene_index": "Q1.17"
+    },
+    {
+      "id": "5cmHX2fNtq6",
+      "title": "True or False: A narrative review plan does not need to include databases to be searched.",
+      "scene_index": "Q1.18"
+    },
+    {
+      "id": "60e9nKPYVzN",
+      "title": "The primary goal of the screening process in a narrative review is to: ",
+      "scene_index": "Q1.19"
+    },
+    {
+      "id": "5WN4WJI6II6",
+      "title": "At what stage are inclusion/exclusion criteria applied most broadly?",
+      "scene_index": "Q1.20"
+    },
+    {
+      "id": "6d2xWiI2jyz",
+      "title": "True or False: Inclusion criteria refers to specific features for studies to be included.",
+      "scene_index": "Q1.21"
+    },
+    {
+      "id": "65NkDujW9Ly",
+      "title": "Consider the following scenario. During full-text screening, you encounter a study that meets all criteria except it reports outcomes in adolescents, not adults (your plan specifies adults only). What should you do?",
+      "scene_index": "Q1.22"
+    },
+    {
+      "id": "63sKbagRIxu",
+      "title": "Which of the following best describes the purpose of a search strategy in a narrative review?",
+      "scene_index": "Q1.23"
+    },
+    {
+      "id": "6OcmUbzr0KO",
+      "title": "When constructing a search strategy, which framework is commonly used to define key concepts?",
+      "scene_index": "Q1.24"
+    },
+    {
+      "id": "5gTzRD0hwLB",
+      "title": "True or False: Keyword-only searches (without subject headings) are always sufficient for narrative reviews.",
+      "scene_index": "Q1.25"
+    },
+    {
+      "id": "6M7QwIovzvX",
+      "title": "True or False: Transparency about search limitations is an important component of narrative review methodology. ",
+      "scene_index": "Q1.26"
+    },
+    {
+      "id": "5j2rx2RMWw5",
+      "title": "How can a plan such as PRISMA-P help when developing a narrative (literature) review?",
+      "scene_index": "Q1.27"
+    },
+    {
+      "id": "6KSSCmpeO40",
+      "title": "The primary purpose of critical appraisal is to:",
+      "scene_index": "Q1.28"
+    },
+    {
+      "id": "5gqPIVydgyh",
+      "title": "Which of the following domains is not commonly assessed in critical appraisal?",
+      "scene_index": "Q1.29"
+    },
+    {
+      "id": "66uvadRS0ad",
+      "title": "True or False: Risk of bias tools are universal and can be applied to all study designs. ",
+      "scene_index": "Q1.30"
+    },
+    {
+      "id": "6ODWuMnxCuW",
+      "title": "True or False: Risk of bias assessment should be tailored to study design. ",
+      "scene_index": "Q1.31"
+    },
+    {
+      "id": "6HLeyKdEsMw",
+      "title": "True or False: Transparent reporting of appraisal results is essential for reproducibility. ",
+      "scene_index": "Q1.32"
+    },
+    {
+      "id": "5w8E6H5Dl6a",
+      "title": "True or False: The goal of critical appraisal is to exclude all low-quality studies. ",
+      "scene_index": "Q1.33"
+    },
+    {
+      "id": "5fdnpfthsJO",
+      "title": "Critical appraisal tools are designed to:",
+      "scene_index": "Q1.34"
+    },
+    {
+      "id": "5rig7rlBe3O",
+      "title": "Which of the following databases are recommended for health-related narrative reviews? (Select all.)",
+      "scene_index": "Q1.35"
+    },
+    {
+      "id": "6NoIy9YSN5X",
+      "title": "What is the primary purpose of a systematic review protocol? ",
+      "scene_index": "Q2.1"
+    },
+    {
+      "id": "6NNCT9FQuFU",
+      "title": "Which of the following is NOT typically included in a protocol?",
+      "scene_index": "Q2.2"
+    },
+    {
+      "id": "6YKgobmQ0Td",
+      "title": "PROSPERO is:",
+      "scene_index": "Q2.3"
+    },
+    {
+      "id": "6DhvJIiuY0n",
+      "title": "The search strategy in a protocol should:",
+      "scene_index": "Q2.4"
+    },
+    {
+      "id": "6TfZBRZ74yG",
+      "title": "A protocol helps reduce bias in the conduct of a systematic review. ",
+      "scene_index": "Q2.5"
+    },
+    {
+      "id": "5sY1WizMzQa",
+      "title": "Amendments to a protocol should not be documented once the review begins.",
+      "scene_index": "Q2.6"
+    },
+    {
+      "id": "6oya65ezRJG",
+      "title": "Data extraction forms should be piloted as part of protocol planning. ",
+      "scene_index": "Q2.7"
+    },
+    {
+      "id": "6KFi3hPDVrt",
+      "title": "Risk of bias assessment tools must be pre-specified in the protocol.",
+      "scene_index": "Q2.8"
+    },
+    {
+      "id": "6YJIuRzx2X6",
+      "title": "What is the difference between eligibility criteria and inclusion criteria?",
+      "scene_index": "Q2.9"
+    },
+    {
+      "id": "5fUi8nptYvw",
+      "title": "Why is it important to pre-specify outcomes of interest in a protocol? ",
+      "scene_index": "Q2.10"
+    },
+    {
+      "id": "5q90VV3rHh0",
+      "title": "List two examples of databases that should be searched in most health-related systematic reviews. ",
+      "scene_index": "Q2.11"
+    },
+    {
+      "id": "5ylE483jVgO",
+      "title": "You are preparing a protocol for a review on the effectiveness of mindfulness interventions for reducing stress in healthcare workers. What elements must you include in your protocol to ensure transparency and reproducibility?",
+      "scene_index": "Q2.12"
+    },
+    {
+      "id": "5q4YwBV4a9P",
+      "title": "Your protocol specifies that only randomized controlled trials (RCTs) will be included. During screening, you identify a large, high-quality cohort study that directly addresses your question. What should you do, and why? ",
+      "scene_index": "Q2.13"
+    },
+    {
+      "id": "62VC4iCVtTA",
+      "title": "The protocol states that two independent reviewers will screen abstracts and full texts. One reviewer becomes unavailable during the study. How should you handle this deviation? ",
+      "scene_index": "Q2.14"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1220,
+    "height": 611
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

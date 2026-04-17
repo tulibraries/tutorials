@@ -1,0 +1,42 @@
+{
+  "version": "3.114.36620.0",
+  "course_id": "63JyDUQhE88",
+  "title": "SL360-Rise_Block_-_Fill_in_the_blank_template",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Intro Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5nJmDoTLm3n",
+      "title": "Intro Slide",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6akoeaWo6zB",
+      "title": "Sample PICO Question",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "651JOp1WE1E",
+      "title": "Sample PICO Question",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5Zhzo4EJZFb",
+      "title": "Sample PICO Question",
+      "scene_index": "1.4"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 560
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}
