@@ -1,0 +1,32 @@
+{
+  "version": "3.120.37241.0",
+  "course_id": "5x3tUnpAwzL_course_id",
+  "title": "SL360-Rise_Block_-_Fill_in_the_blank_template",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Certificate"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5osffYEQ84Q",
+      "title": "Course Certificate",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6OQWezN1EG2",
+      "title": "Certificate",
+      "scene_index": "1.2"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 476
+  },
+  "stage": {
+    "width": 720,
+    "height": 405
+  }
+}
