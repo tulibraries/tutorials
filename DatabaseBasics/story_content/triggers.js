@@ -2,16 +2,16 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6Wh3fU1r7lH":
+      case "5k997sKPc78":
         Script1();
         break;
-      case "5pWuADgrSEi":
+      case "5XaN5e8nWXa":
         Script2();
         break;
-      case "5Vva03WtsBI":
+      case "6HjJxSlAcBn":
         Script3();
         break;
-      case "6dLJ3DltKGj":
+      case "6UHT5QwixR8":
         Script4();
         break;
   }
@@ -32,4 +32,7 @@ var showPointer = player.showPointer;
 var hidePointer = player.hidePointer;
 var slideWidth = player.slideWidth;
 var slideHeight = player.slideHeight;
+var getKeyDown = player.getKeyDown;
+var keydown = player.keydown;
+var keyup = player.keyup;
 };
