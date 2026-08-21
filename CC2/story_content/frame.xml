@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns11111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
   <layouts>
     <layout name="npnxnanbsnfns11111100101" font="Arial" controllayout="npnxnanbsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
     <layout name="pxabnsnfns11111100101" font="Arial" controllayout="pxabnsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
@@ -23,7 +23,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6MAEJfvkXN0.png" />
+              <option name="html5_logo_url" value="mobile/6PeaadlMSbL.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -1670,6 +1670,7 @@
       <string id="video_transcript_title">Transcripts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
       <string id="continue">Continue</string>
+      <string id="video_transcript_mobile_label">Transcript</string>
       <string id="invalid_prompt_button">OK</string>
       <string id="invalid_prompt_message">You must complete the question before submitting.</string>
       <string id="invalid_prompt_title">Invalid Answer</string>
@@ -1693,36 +1694,36 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5qYWJKJ0GgF.6E4iimxdt11" displaytext="Welcome" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5yfTQt1GPNF" displaytext="Part 2: Locating and Attributing Creative Commons and Public Domain Content " expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6oJKp7kAnY8" displaytext="What this Tutorial Will Cover" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6BBpSa8EGmz" displaytext="Find Content" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5yDsWQmh2c1" displaytext="Source-specific Licenses &amp;amp; Attributions" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6JOLItRtw1t" displaytext="Suggested Workflow for Locating Content" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5f7sy5raXiT" displaytext="Attribution is Ethical Behavior" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.61KfLN1iQpU" displaytext="Four Key Elements of an Attribution" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6FC304o03Yx" displaytext="General Formula for Attribution" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5VDpVvR5PGm" displaytext="Example Attribution" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6flz0H4jISH" displaytext="Attribution for Modified Content" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6PQHKMjU5Gw" displaytext="Try it Yourself" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6UgY2X1Zzd6" displaytext="Try it yourself - Find Image" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6eU3vS70q9N" displaytext="Try it yourself - Find Audio" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.64BRRrtg6CO" displaytext="Try it yourself - Find Video" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5t8huLpdPrE" displaytext="Where to Place an Attribution" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6Z84uixQwhU" displaytext="Attribution Placement" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5fjI64B8mK8" displaytext="Recap" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.67lSyFeu3D7" displaytext="Takeaways" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.6b2ZL6oKJLb" displaytext="Knowledge Check Results" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5hNBkYAuyks" displaytext="Contact Us" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.5Zp43VXSyD4" displaytext="Thank you!" expand="false" type="slide" />
-        <slidelink slideid="_player.5qYWJKJ0GgF.67RHCV2JGj8" displaytext="Course Certificate" expand="false" type="slide" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6E4iimxdt11" displaytext="Welcome" expand="false" type="slide" translationId="5gTAixAa6SJ" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5yfTQt1GPNF" displaytext="Part 2: Locating and Attributing Creative Commons and Public Domain Content " expand="false" type="slide" translationId="5rXEpkBgSr5" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6oJKp7kAnY8" displaytext="What this Tutorial Will Cover" expand="false" type="slide" translationId="6qdpXZ8x0XE" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6BBpSa8EGmz" displaytext="Find Content" expand="false" type="slide" translationId="5uAND0qwygF" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5yDsWQmh2c1" displaytext="Source-specific Licenses &amp;amp; Attributions" expand="false" type="slide" translationId="5hwQYYMrY9f" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6JOLItRtw1t" displaytext="Suggested Workflow for Locating Content" expand="false" type="slide" translationId="6EchdEFzgLz" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5f7sy5raXiT" displaytext="Attribution is Ethical Behavior" expand="false" type="slide" translationId="6MnqCrRKWzW" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.61KfLN1iQpU" displaytext="Four Key Elements of an Attribution" expand="false" type="slide" translationId="6AAzatRuwRi" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6FC304o03Yx" displaytext="General Formula for Attribution" expand="false" type="slide" translationId="5losgVkMsS1" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5VDpVvR5PGm" displaytext="Example Attribution" expand="false" type="slide" translationId="6Sof4MYaJ2d" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6flz0H4jISH" displaytext="Attribution for Modified Content" expand="false" type="slide" translationId="6LhybOta7f3" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6PQHKMjU5Gw" displaytext="Try it Yourself" expand="false" type="slide" translationId="6qwC7eXZ3O3" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6UgY2X1Zzd6" displaytext="Try it yourself - Find Image" expand="false" type="slide" translationId="5pxV4QsZZnx" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6eU3vS70q9N" displaytext="Try it yourself - Find Audio" expand="false" type="slide" translationId="6D3MOzEKODx" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.64BRRrtg6CO" displaytext="Try it yourself - Find Video" expand="false" type="slide" translationId="67F9VXkEeoK" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5t8huLpdPrE" displaytext="Where to Place an Attribution" expand="false" type="slide" translationId="6UvfVPsIbza" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6Z84uixQwhU" displaytext="Attribution Placement" expand="false" type="slide" translationId="6HgzEMiytLP" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5fjI64B8mK8" displaytext="Recap" expand="false" type="slide" translationId="6a7ZT2HRpsU" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.67lSyFeu3D7" displaytext="Takeaways" expand="false" type="slide" translationId="6DYodmNvD9y" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.6b2ZL6oKJLb" displaytext="Knowledge Check Results" expand="false" type="slide" translationId="6C4fVo1PnnP" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5hNBkYAuyks" displaytext="Contact Us" expand="false" type="slide" translationId="5qT5nZkV1OA" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.5Zp43VXSyD4" displaytext="Thank you!" expand="false" type="slide" translationId="61vYFs43hpM" />
+        <slidelink slideid="_player.5qYWJKJ0GgF.67RHCV2JGj8" displaytext="Course Certificate" expand="false" type="slide" translationId="5bzaWOWqsuH" />
       </links>
     </outline>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="https://answers.library.temple.edu/chat/widget/f5f15d338926526609d72ff4d9713954" image="story_content/url.png" title="Chat with a librarian" />
-      <resource url="https://forms.office.com/r/9TGXJ0K8h1" image="story_content/url.png" title="Feedback Form" />
+      <resource url="https://answers.library.temple.edu/chat/widget/f5f15d338926526609d72ff4d9713954" image="story_content/url.png" title="Chat with a librarian" translationId="6EK5cdcgGWq" />
+      <resource url="https://forms.office.com/r/9TGXJ0K8h1" image="story_content/url.png" title="Feedback Form" translationId="6gc00kHPSuj" />
     </resources>
   </resource_data>
   <transcript_data />
