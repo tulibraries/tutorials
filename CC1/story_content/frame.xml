@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npxnabnsnfns11111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0x8C2132">
   <layouts>
     <layout name="npnxnanbsnfns11111100101" font="Arial" controllayout="npnxnanbsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
     <layout name="pxabnsnfns11111100101" font="Arial" controllayout="pxabnsnfns11111100101" colorscheme="npxnabnsnfns11111100101" string_table="npxnabnsnfns11111100101" />
@@ -23,7 +23,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/5X6gE3PlRVp.png" />
+              <option name="html5_logo_url" value="mobile/61b6z86RUEb.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -1665,6 +1665,7 @@
       <string id="transcript_auto_scroll">Autoscroll</string>
       <string id="transcript_chk">Notes</string>
       <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_mobile_label">Transcript</string>
       <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
       <string id="video_transcript_select_track">Select track</string>
       <string id="video_transcript_title">Transcripts</string>
@@ -1693,43 +1694,43 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5agf50r9law.6NToVXQkjNI" displaytext="Welcome" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5uNadxo4HfY" displaytext="Part 1: Differences Between Creative Commons, Public Domain, and Copyright" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.61sUe2oyP0Z" displaytext="What this Tutorial Will Cover" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6IXvCLofREs" displaytext="A Spectrum of Rights" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5qcpJ2YculB" displaytext="What is Copyright?" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5WxssEgZRZE" displaytext="Copyright" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6m5lKOH7cya" displaytext="Copyright Knowledge Check" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6PGw7hjAhoX" displaytext="What is Creative Commons?" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6ZgDhI0Lzg9" displaytext="Creative Commons" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.66b9peg34rG" displaytext="Creative Commons Licenses " expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6Pua7YDNKDT" displaytext="Creative Commons" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6FcWLuvoSwB" displaytext="Creative Commons Knowledge Check" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5sfO3HqJ8zi" displaytext="Creative Commons License Chart" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5kxCSlGGbyO" displaytext="Creative Commons Licenses Knowledge Check" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6o2VW7BLpIb" displaytext="What Every Creative Commons License Allows" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5oC13vnlq1q" displaytext="What is Public Domain?" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6f89MpsEshN" displaytext="Public Domain" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6nMY20fAd1K" displaytext="Public Domain" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5m8auUTd4Dh" displaytext="Public Domain Knowledge Check" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.67pB4LRpbDB" displaytext="Why the Public Domain Matters" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.67nQA4IGZNA" displaytext="What is Fair Use?" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5scuGlfrw0u" displaytext="The Four Factors of Fair Use" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6SWNVCzleHb" displaytext="Fair Use" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6A7hFMppLQK" displaytext="Apply Creative Commons Licenses to Your Own Works" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6Fk97nBNPVO" displaytext="License Chooser" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5uXVJvt3GJC" displaytext="Recap" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6BzPPOkBQeK" displaytext="Takeaways" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6dPxOEYFQtS" displaytext="Contact Us" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.5n5Fm2BuhUO" displaytext="Thank you!" expand="false" type="slide" />
-        <slidelink slideid="_player.5agf50r9law.6Gf6ZeL7Sv8" displaytext="Course Certificate" expand="false" type="slide" />
+        <slidelink slideid="_player.5agf50r9law.6NToVXQkjNI" displaytext="Welcome" expand="false" type="slide" translationId="5m77FbAQKFn" />
+        <slidelink slideid="_player.5agf50r9law.5uNadxo4HfY" displaytext="Part 1: Differences Between Creative Commons, Public Domain, and Copyright" expand="false" type="slide" translationId="6pDEOoGQxqd" />
+        <slidelink slideid="_player.5agf50r9law.61sUe2oyP0Z" displaytext="What this Tutorial Will Cover" expand="false" type="slide" translationId="6d5ezyBcJub" />
+        <slidelink slideid="_player.5agf50r9law.6IXvCLofREs" displaytext="A Spectrum of Rights" expand="false" type="slide" translationId="6BoH7FoGsPw" />
+        <slidelink slideid="_player.5agf50r9law.5qcpJ2YculB" displaytext="What is Copyright?" expand="false" type="slide" translationId="5m2mz5zc56C" />
+        <slidelink slideid="_player.5agf50r9law.5WxssEgZRZE" displaytext="Copyright" expand="false" type="slide" translationId="6C85XYauqZi" />
+        <slidelink slideid="_player.5agf50r9law.6m5lKOH7cya" displaytext="Copyright Knowledge Check" expand="false" type="slide" translationId="6BJ8yjyJ6ol" />
+        <slidelink slideid="_player.5agf50r9law.6PGw7hjAhoX" displaytext="What is Creative Commons?" expand="false" type="slide" translationId="5Vrusr9cmH4" />
+        <slidelink slideid="_player.5agf50r9law.6ZgDhI0Lzg9" displaytext="Creative Commons" expand="false" type="slide" translationId="5dmVgmNgPmG" />
+        <slidelink slideid="_player.5agf50r9law.66b9peg34rG" displaytext="Creative Commons Licenses " expand="false" type="slide" translationId="5W12XDyeBeC" />
+        <slidelink slideid="_player.5agf50r9law.6Pua7YDNKDT" displaytext="Creative Commons" expand="false" type="slide" translationId="6ORcOSA4gzS" />
+        <slidelink slideid="_player.5agf50r9law.6FcWLuvoSwB" displaytext="Creative Commons Knowledge Check" expand="false" type="slide" translationId="6jtJ4SwmoBU" />
+        <slidelink slideid="_player.5agf50r9law.5sfO3HqJ8zi" displaytext="Creative Commons License Chart" expand="false" type="slide" translationId="5k97gbKWW1d" />
+        <slidelink slideid="_player.5agf50r9law.5kxCSlGGbyO" displaytext="Creative Commons Licenses Knowledge Check" expand="false" type="slide" translationId="5ybWMwAkyQP" />
+        <slidelink slideid="_player.5agf50r9law.6o2VW7BLpIb" displaytext="What Every Creative Commons License Allows" expand="false" type="slide" translationId="6cYLyLkHMQ0" />
+        <slidelink slideid="_player.5agf50r9law.5oC13vnlq1q" displaytext="What is Public Domain?" expand="false" type="slide" translationId="5dIJ0MMOSBW" />
+        <slidelink slideid="_player.5agf50r9law.6f89MpsEshN" displaytext="Public Domain" expand="false" type="slide" translationId="6WphTd0KD3D" />
+        <slidelink slideid="_player.5agf50r9law.6nMY20fAd1K" displaytext="Public Domain" expand="false" type="slide" translationId="6oiSE8K3iVJ" />
+        <slidelink slideid="_player.5agf50r9law.5m8auUTd4Dh" displaytext="Public Domain Knowledge Check" expand="false" type="slide" translationId="6IvFbRg9ydV" />
+        <slidelink slideid="_player.5agf50r9law.67pB4LRpbDB" displaytext="Why the Public Domain Matters" expand="false" type="slide" translationId="67jKiKJiCJP" />
+        <slidelink slideid="_player.5agf50r9law.67nQA4IGZNA" displaytext="What is Fair Use?" expand="false" type="slide" translationId="6J7DvI8mkB6" />
+        <slidelink slideid="_player.5agf50r9law.5scuGlfrw0u" displaytext="The Four Factors of Fair Use" expand="false" type="slide" translationId="6hPk14UiZt0" />
+        <slidelink slideid="_player.5agf50r9law.6SWNVCzleHb" displaytext="Fair Use" expand="false" type="slide" translationId="6AWUN1hydL5" />
+        <slidelink slideid="_player.5agf50r9law.6A7hFMppLQK" displaytext="Apply Creative Commons Licenses to Your Own Works" expand="false" type="slide" translationId="5oUEzOQz39X" />
+        <slidelink slideid="_player.5agf50r9law.6Fk97nBNPVO" displaytext="License Chooser" expand="false" type="slide" translationId="6JJHNLIKIAU" />
+        <slidelink slideid="_player.5agf50r9law.5uXVJvt3GJC" displaytext="Recap" expand="false" type="slide" translationId="696MrBhM8UM" />
+        <slidelink slideid="_player.5agf50r9law.6BzPPOkBQeK" displaytext="Takeaways" expand="false" type="slide" translationId="6Gnd7hhxfOz" />
+        <slidelink slideid="_player.5agf50r9law.6dPxOEYFQtS" displaytext="Contact Us" expand="false" type="slide" translationId="6r8MRFSF0Rt" />
+        <slidelink slideid="_player.5agf50r9law.5n5Fm2BuhUO" displaytext="Thank you!" expand="false" type="slide" translationId="6Vpd8z6iThm" />
+        <slidelink slideid="_player.5agf50r9law.6Gf6ZeL7Sv8" displaytext="Course Certificate" expand="false" type="slide" translationId="5vzZcHxWsQk" />
       </links>
     </outline>
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Arial' style='font-size: 11px;' size='11' color='#464646'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="https://answers.library.temple.edu/chat/widget/f5f15d338926526609d72ff4d9713954" image="story_content/url.png" title="Chat with a librarian" />
-      <resource url="https://forms.office.com/r/9TGXJ0K8h1" image="story_content/url.png" title="Feedback Form" />
+      <resource url="https://answers.library.temple.edu/chat/widget/f5f15d338926526609d72ff4d9713954" image="story_content/url.png" title="Chat with a librarian" translationId="6EK5cdcgGWq" />
+      <resource url="https://forms.office.com/r/9TGXJ0K8h1" image="story_content/url.png" title="Feedback Form" translationId="6gc00kHPSuj" />
     </resources>
   </resource_data>
   <transcript_data />
