@@ -1,5 +1,5 @@
 
-var VERSION = "7.7.0";
+var VERSION = "7.12.0";
 
 var PREFERENCE_DEFAULT = 0;
 var PREFERENCE_OFF     = -1;
@@ -4800,6 +4800,20 @@ function SCORM_RecordInteraction(strID, strResponse, blnCorrect, strCorrectRespo
 
         if (blnTempResult == false && strAlternateResponse !== null){
             blnTempResult = SCORM_CallLMSSetValue("cmi.interactions." + intInteractionIndex + ".student_response", strAlternateResponse);
+
+            //
+            // by trying the long version and then falling back to the short version there may have
+            // been an error set that should be cleared if the short version works, unfortunately
+            // this obscures any error in the first two calls, but any error in those calls would
+            // have already been obscured by trying a long version that failed, therefore it was
+            // determined that it was better to go ahead and clear the error because that particular
+            // piece of data (the response) was actually captured, and any of the calls after this
+            // point could still have a proper error *and* that the first two calls are the ones
+            // most likely to succeed and if they don't then things are really broken
+            //
+            if (blnTempResult == true) {
+                SCORM_ClearErrorInfo();
+            }
         }
     }
 
@@ -4810,6 +4824,11 @@ function SCORM_RecordInteraction(strID, strResponse, blnCorrect, strCorrectRespo
         blnTempResult = SCORM_CallLMSSetValue("cmi.interactions." + intInteractionIndex + ".correct_responses.0.pattern", strCorrectResponse);
         if (blnTempResult == false){
             blnTempResult = SCORM_CallLMSSetValue("cmi.interactions." + intInteractionIndex + ".correct_responses.0.pattern", strAlternateCorrectResponse);
+
+            // see comment above
+            if (blnTempResult == true) {
+                SCORM_ClearErrorInfo();
+            }
         }
 
         blnResult = blnResult && blnTempResult;
@@ -17476,41 +17495,6 @@ TinCan client library
     /* Shims for browsers not supporting our needs, mainly IE */
 
     //
-    // Make JSON safe for IE6
-    // https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/JSON#Browser_compatibility
-    //
-    if (!window.JSON) {
-        window.JSON = {
-            parse: function (sJSON) {
-                /*jslint evil: true */
-                return eval("(" + sJSON + ")");
-            },
-            stringify: function (vContent) {
-                var sOutput = "",
-                    nId,
-                    sProp
-                ;
-                if (vContent instanceof Object) {
-                    if (vContent.constructor === Array) {
-                        for (nId = 0; nId < vContent.length; nId += 1) {
-                            sOutput += this.stringify(vContent[nId]) + ",";
-                        }
-                        return "[" + sOutput.substr(0, sOutput.length - 1) + "]";
-                    }
-                    if (vContent.toString !== Object.prototype.toString) { return "\"" + vContent.toString().replace(/"/g, "\\$&") + "\""; }
-                    for (sProp in vContent) {
-                        if (vContent.hasOwnProperty(sProp)) {
-                            sOutput += "\"" + sProp.replace(/"/g, "\\$&") + "\":" + this.stringify(vContent[sProp]) + ",";
-                        }
-                    }
-                    return "{" + sOutput.substr(0, sOutput.length - 1) + "}";
-                }
-                return typeof vContent === "string" ? "\"" + vContent.replace(/"/g, "\\$&") + "\"" : String(vContent);
-            }
-        };
-    }
-
-    //
     // Make Date.now safe for IE < 9
     // https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Date/now
     //
@@ -22568,6 +22552,22 @@ if (typeof module !== "undefined" && module.exports) {
                 return origResult;
             }
 
+            // this patch was originally introduced to handle the case of synchronous
+            // requests being blocked during unload, and it was assumed that it was
+            // okay to also attempt a fetch version of the request when the response
+            // was a 0 status indicating offline because it would be better to have
+            // it succeed if it were back online for instance, but by letting this
+            // fall through to the fetch request means there is no way to capture
+            // an original error in the non-unloading case (IOW, normal processing)
+            // which means that requests that indicate offline during normal processing
+            // don't result in an error being indicated and so the updates would
+            // get lost, so only allow falling through to the fetch version when
+            // we're in the process of unloading
+            //
+            if (! blnUnloading) {
+                return origResult;
+            }
+
             // original request is unrecognized, succeeded, or doesn't indicate
             // a network error (zero status) so nothing else to do here
             //
@@ -27504,7 +27504,8 @@ var TCAPI_STATUS = "",
     TCAPI_STATE_TOTAL_TIME = "cumulative_time",
     TCAPI_STATE_SUSPEND_DATA = "suspend_data",
 
-    // this is a non-HTTP status code error from TinCanJS
+    // these are non-HTTP status code errors from TinCanJS
+    TCAPI_CONN_ERROR = 998,
     TCAPI_DEP_ERROR = 999,
 
     TCAPI_ERROR_INVALID_PREFERENCE = 0,
@@ -27522,6 +27523,42 @@ var tincan;
 /* Declare global used for our own local cache of items */
 var tcapi_cache;
 
+function _TCAPI_HandleRequestErrorResult (result, mesg) {
+    var errCode,
+        errDiag,
+        errMesg = mesg;
+
+    if (result.err !== null) {
+        //
+        // in the case of errors result.err either contains an Error object (theoretically)
+        // or the HTTP status code if the request actually made it to the LRS, to distinguish
+        // we can check it for all digits (which is safer than checking for an Error object,
+        // at least in this version of TinCanJS), which then allows us to look at the response
+        // text which is generally a more helpful message than the status code
+        //
+        if (/^\d+$/.test(result.err)) {
+            if (result.err === 0) {
+                // 0 status codes represent network errors in the request but 0 can't be used
+                // as the error code because Driver treats 0 as the no error code
+                errCode = TCAPI_CONN_ERROR;
+                errDiag = "Aborted, offline, or invalid CORS endpoint";
+            }
+            else {
+                errCode = result.err;
+                errDiag = result.xhr.responseText;
+            }
+        }
+        else {
+            errCode = TCAPI_DEP_ERROR;
+            errDiag = result.err;
+        }
+
+        TCAPI_SetErrorInfoManually(errCode, errMesg, errDiag);
+    }
+    else {
+        WriteToDebug("Unexpected result object, `result.err` null?");
+    }
+}
 
 // this is just here to make it possible to mock the launch URL
 // for testing purposes
@@ -27624,13 +27661,25 @@ function TCAPI_Initialize () {
 //
 function _TCAPI_SetStateSafe (key, value) {
     var result;
+
     try {
         result = tincan.setState(key, value);
     }
     catch (ex) {
+        //
+        // this exception is assumed to be the one from IE7, errors should come back
+        // from TinCanJS via the result object and in particular the `err` property
+        //
         WriteToDebug("In _TCAPI_SetStateSafe - caught exception from setState: " + ex.message);
     }
-    return result;
+
+    if (result && result.err !== null) {
+        _TCAPI_HandleRequestErrorResult(result, "Failed to save state (" + key + ")");
+
+        return false;
+    }
+
+    return true;
 }
 
 function TCAPI_GetStudentID () {
@@ -27681,8 +27730,14 @@ function TCAPI_GetBookmark () {
 
 function TCAPI_SetBookmark (value, name) {
     WriteToDebug("In TCAPI_SetBookmark - value: " + value + ", name: " + name);
+    var stateResult;
 
-    _TCAPI_SetStateSafe(TCAPI_STATE_BOOKMARK, value);
+    TCAPI_ClearErrorInfo();
+
+    stateResult = _TCAPI_SetStateSafe(TCAPI_STATE_BOOKMARK, value);
+    if (! stateResult) {
+        return false;
+    }
 
     WriteToDebug("In TCAPI_SetBookmark - sending statement: " + value);
     tincan.sendStatement(
@@ -27730,9 +27785,9 @@ function TCAPI_GetDataChunk () {
 function TCAPI_SetDataChunk (value) {
     WriteToDebug("In TCAPI_SetDataChunk");
 
-    _TCAPI_SetStateSafe(TCAPI_STATE_SUSPEND_DATA, value);
+    TCAPI_ClearErrorInfo();
 
-    return true;
+    return _TCAPI_SetStateSafe(TCAPI_STATE_SUSPEND_DATA, value);
 }
 
 function TCAPI_CommitData () {
@@ -27794,29 +27849,7 @@ function TCAPI_CommitData () {
             result = requestResults.results[0];
 
             if (result.err !== null) {
-                errMesg = "Failed to commit data: statements";
-
-                //
-                // in the case of errors result.err either contains an Error object (theoretically)
-                // or the HTTP status code if the request actually made it to the LRS, to distinguish
-                // we can check it for all digits (which is safer than checking for an Error object,
-                // at least in this version of TinCanJS), which then allows us to look at the response
-                // text which is generally a more helpful message than the status code
-                //
-                if (/^\d+$/.test(result.err)) {
-                    errCode = result.err;
-
-                    if (result.err === 0) {
-                        errDiag = "Aborted, offline, or invalid CORS endpoint";
-                    }
-                    else {
-                        errDiag = result.xhr.responseText;
-                    }
-                }
-                else {
-                    errCode = TCAPI_DEP_ERROR;
-                    errDiag = result.err;
-                }
+                _TCAPI_HandleRequestErrorResult(result, "Failed to commit data: statements");
 
                 //
                 // if there were updates above, then we added a statement to the queue, but since it
@@ -27830,7 +27863,6 @@ function TCAPI_CommitData () {
                     TCAPI_UPDATES_PENDING = true;
                 }
 
-                TCAPI_SetErrorInfoManually(errCode, errMesg, errDiag);
                 return false;
             }
         }
@@ -27844,7 +27876,16 @@ function TCAPI_CommitData () {
 function TCAPI_Finish (exitType, statusWasSet) {
     WriteToDebug("In TCAPI_Finish - exitType: " + exitType);
 
+    TCAPI_ClearErrorInfo();
+
     if (exitType === EXIT_TYPE_SUSPEND) {
+        //
+        // _TCAPI_SetStateSafe sets the error condition and can return `false` when it fails
+        // but we'd rather have a chance to do CommitData than to return based on a failure
+        // to capture the accumulated time. The error will be cleared immediately, but at least
+        // the debug logs will have been captured and if the State request failed there is
+        // a likely chance that so will the other(s)
+        //
         _TCAPI_SetStateSafe(
             TCAPI_STATE_TOTAL_TIME,
             TCAPI_GetPreviouslyAccumulatedTime() + GetSessionAccumulatedTime()
@@ -27942,13 +27983,13 @@ function TCAPI_SetAudioPreference (PlayPreference, intPercentOfMaxVolume) {
         intPercentOfMaxVolume = -1;
     }
 
-    _TCAPI_SetStateSafe("cmi.student_preference.audio", intPercentOfMaxVolume);
+    return _TCAPI_SetStateSafe("cmi.student_preference.audio", intPercentOfMaxVolume);
 }
 
 function TCAPI_SetLanguagePreference (strLanguage) {
     WriteToDebug("In TCAPI_SetLanguagePreference strLanguage=" + strLanguage);
     TCAPI_ClearErrorInfo();
-    _TCAPI_SetStateSafe("cmi.student_preference.language", strLanguage);
+    return _TCAPI_SetStateSafe("cmi.student_preference.language", strLanguage);
 }
 
 function TCAPI_GetLanguagePreference () {
@@ -27974,7 +28015,7 @@ function TCAPI_SetSpeedPreference (intPercentOfMax) {
     intTCAPISpeed = (intPercentOfMax * 2) - 100;
 
     WriteToDebug("intTCAPISpeed=" + intTCAPISpeed);
-    _TCAPI_SetStateSafe("cmi.student_preference.speed", intTCAPISpeed);
+    return _TCAPI_SetStateSafe("cmi.student_preference.speed", intTCAPISpeed);
 }
 
 function TCAPI_GetSpeedPreference () {
@@ -28024,7 +28065,7 @@ function TCAPI_GetSpeedPreference () {
 function TCAPI_SetTextPreference (intPreference) {
     WriteToDebug("In TCAPI_SetTextPreference intPreference=" + intPreference);
     TCAPI_ClearErrorInfo();
-    _TCAPI_SetStateSafe("cmi.student_preference.text", intPreference);
+    return _TCAPI_SetStateSafe("cmi.student_preference.text", intPreference);
 }
 
 function TCAPI_GetTextPreference () {
@@ -29178,7 +29219,8 @@ var CMI5_PENDING_STATUS = {
     // reserve the 2xx-5xx space for HTTP return codes from cmi5.js
     CMI5_NO_ERROR = "",
 
-    // this is a non-HTTP status code error from cmi5.js
+    // these are non-HTTP status code errors from cmi5.js
+    CMI5_CONN_ERROR = 998,
     CMI5_DEP_ERROR = 999,
 
     CMI5_ERROR_NOT_IMPLEMENTED = 998,
@@ -29552,12 +29594,14 @@ function CMI5_CommitData () {
             // text which is generally a more helpful message than the status code
             //
             if (/^\d+$/.test(result.err)) {
-                errCode = result.err;
-
                 if (result.err === 0) {
+                    // 0 status codes represent network errors in the request but 0 can't be used
+                    // as the error code because Driver treats 0 as the no error code
+                    errCode = CMI5_CONN_ERROR;
                     errDiag = "Aborted, offline, or invalid CORS endpoint";
                 }
                 else {
+                    errCode = result.err;
                     errDiag = result.xhr.responseText;
                 }
             }
@@ -30011,7 +30055,7 @@ function CMI5_SetScore (intScore, intMaxScore, intMinScore) {
     }
 
     score = {
-        raw: intScore,
+        raw: Math.round(intScore),
         max: intMaxScore,
         min: intMinScore,
 
@@ -30882,6 +30926,8 @@ function CMI5_SetFailed () {
 
     CMI5_ClearErrorInfo();
 
+    CMI5_ResetBlnStatusWasSetIfAppropriate();
+
     if (cmi5.getLaunchMode() !== "Normal") {
         CMI5_SetErrorInfoManually(CMI5_ERROR_NON_NORMAL_MODE, "Failed to SetFailed", "Launch mode (" + cmi5.getLaunchMode() + ") not a recording mode");
         return false;
@@ -30946,6 +30992,8 @@ function CMI5_SetPassed () {
         st;
 
     CMI5_ClearErrorInfo();
+
+    CMI5_ResetBlnStatusWasSetIfAppropriate();
 
     if (cmi5.getLaunchMode() !== "Normal") {
         CMI5_SetErrorInfoManually(CMI5_ERROR_NON_NORMAL_MODE, "Failed to SetPassed", "Launch mode (" + cmi5.getLaunchMode() + ") not a recording mode");
@@ -31444,6 +31492,16 @@ function CMI5_ExitOnTimeout () {
     return false;
 }
 
+function CMI5_ResetBlnStatusWasSetIfAppropriate () {
+    var isAlreadyComplete = CMI5_PENDING_STATUS.completion || CMI5_COMMITTED_STATUS.completion;
+
+    if (! isAlreadyComplete) {
+        // Overriding the default behavior so cmi5 courses can treat completion and success completely independently
+        WriteToDebug("Overriding blnStatusWasSet to false.");
+        blnStatusWasSet = false;
+    }
+}
+
 /*****************************
 *  Error Management
 *****************************/
@@ -31484,106 +31542,105 @@ function CMI5_GetLastErrorDesc () {
     return strCMI5ErrorString + "\n" + strCMI5ErrorDiagnostic;
 }
 
-function LMSStandardAPI(strStandard){
+function LMSStandardAPI (strStandard) {
+    var interfaceMethods = [
+            "Initialize",
+            "Finish",
+            "CommitData",
+            "GetStudentID",
+            "GetStudentName",
+            "GetBookmark",
+            "SetBookmark",
+            "GetDataChunk",
+            "SetDataChunk",
+            "GetLaunchData",
+            "GetComments",
+            "WriteComment",
+            "GetLMSComments",
+            "GetAudioPlayPreference",
+            "GetAudioVolumePreference",
+            "SetAudioPreference",
+            "SetLanguagePreference",
+            "GetLanguagePreference",
+            "SetSpeedPreference",
+            "GetSpeedPreference",
+            "SetTextPreference",
+            "GetTextPreference",
+            "GetPreviouslyAccumulatedTime",
+            "SaveTime",
+            "GetMaxTimeAllowed",
+            "DisplayMessageOnTimeout",
+            "ExitOnTimeout",
+            "GetPassingScore",
+            "SetScore",
+            "GetScore",
+            "GetScaledScore",
+            "RecordTrueFalseInteraction",
+            "RecordMultipleChoiceInteraction",
+            "RecordFillInInteraction",
+            "RecordMatchingInteraction",
+            "RecordPerformanceInteraction",
+            "RecordSequencingInteraction",
+            "RecordLikertInteraction",
+            "RecordNumericInteraction",
+            "GetEntryMode",
+            "GetLessonMode",
+            "GetTakingForCredit",
+            "SetObjectiveScore",
+            "SetObjectiveStatus",
+            "GetObjectiveScore",
+            "GetObjectiveStatus",
+            "SetObjectiveDescription",
+            "GetObjectiveDescription",
+            "SetFailed",
+            "SetPassed",
+            "SetCompleted",
+            "ResetStatus",
+            "GetStatus",
+            "GetLastError",
+            "GetLastErrorDesc",
+            "GetInteractionType",
+            "GetInteractionTimestamp",
+            "GetInteractionCorrectResponses",
+            "GetInteractionWeighting",
+            "GetInteractionLearnerResponses",
+            "GetInteractionResult",
+            "GetInteractionLatency",
+            "GetInteractionDescription",
+            "CreateDataBucket",
+            "GetDataFromBucket",
+            "PutDataInBucket",
+            "DetectSSPSupport",
+            "GetBucketInfo",
+            "GetProgressMeasure",
+            "SetProgressMeasure",
+            "SetPointBasedScore",
+            "SetNavigationRequest",
+            "GetNavigationRequest",
+            "SetObjectiveProgressMeasure",
+            "GetObjectiveProgressMeasure",
+            "CreateValidIdentifier",
+            "ConcedeControl"
+        ],
+        i;
 
     WriteToDebug("In LMSStandardAPI strStandard=" + strStandard);
 
-    if (strStandard == ""){
+    if (strStandard == "") {
         WriteToDebug("No standard specified, using NONE");
         strStandard = "NONE";
     }
 
-    eval ("this.Initialize = " + strStandard + "_Initialize");
-    eval ("this.Finish = " + strStandard + "_Finish");
-    eval ("this.CommitData = " + strStandard + "_CommitData");
-    eval ("this.GetStudentID = " + strStandard + "_GetStudentID");
-    eval ("this.GetStudentName = " + strStandard + "_GetStudentName");
-    eval ("this.GetBookmark = " + strStandard + "_GetBookmark");
-    eval ("this.SetBookmark = " + strStandard + "_SetBookmark");
-    eval ("this.GetDataChunk = " + strStandard + "_GetDataChunk");
-    eval ("this.SetDataChunk = " + strStandard + "_SetDataChunk");
-    eval ("this.GetLaunchData = " + strStandard + "_GetLaunchData");
-    eval ("this.GetComments = " + strStandard + "_GetComments");
-    eval ("this.WriteComment = " + strStandard + "_WriteComment");
-    eval ("this.GetLMSComments = " + strStandard + "_GetLMSComments");
-    eval ("this.GetAudioPlayPreference = " + strStandard + "_GetAudioPlayPreference");
-    eval ("this.GetAudioVolumePreference = " + strStandard + "_GetAudioVolumePreference");
-    eval ("this.SetAudioPreference = " + strStandard + "_SetAudioPreference");
-    eval ("this.SetLanguagePreference = " + strStandard + "_SetLanguagePreference");
-    eval ("this.GetLanguagePreference = " + strStandard + "_GetLanguagePreference");
-    eval ("this.SetSpeedPreference = " + strStandard + "_SetSpeedPreference");
-    eval ("this.GetSpeedPreference = " + strStandard + "_GetSpeedPreference");
-    eval ("this.SetTextPreference = " + strStandard + "_SetTextPreference");
-    eval ("this.GetTextPreference = " + strStandard + "_GetTextPreference");
-    eval ("this.GetPreviouslyAccumulatedTime = " + strStandard + "_GetPreviouslyAccumulatedTime");
-    eval ("this.SaveTime = " + strStandard + "_SaveTime");
-    eval ("this.GetMaxTimeAllowed = " + strStandard + "_GetMaxTimeAllowed");
-    eval ("this.DisplayMessageOnTimeout = " + strStandard + "_DisplayMessageOnTimeout");
-    eval ("this.ExitOnTimeout = " + strStandard + "_ExitOnTimeout");
-    eval ("this.GetPassingScore = " + strStandard + "_GetPassingScore");
-    eval ("this.SetScore = " + strStandard + "_SetScore");
-    eval ("this.GetScore = " + strStandard + "_GetScore");
-    eval ("this.GetScaledScore = " + strStandard + "_GetScaledScore");
-
-    eval ("this.RecordTrueFalseInteraction = " + strStandard + "_RecordTrueFalseInteraction");
-    eval ("this.RecordMultipleChoiceInteraction = " + strStandard + "_RecordMultipleChoiceInteraction");
-    eval ("this.RecordFillInInteraction = " + strStandard + "_RecordFillInInteraction");
-    eval ("this.RecordMatchingInteraction = " + strStandard + "_RecordMatchingInteraction");
-    eval ("this.RecordPerformanceInteraction = " + strStandard + "_RecordPerformanceInteraction");
-    eval ("this.RecordSequencingInteraction = " + strStandard + "_RecordSequencingInteraction");
-    eval ("this.RecordLikertInteraction = " + strStandard + "_RecordLikertInteraction");
-    eval ("this.RecordNumericInteraction = " + strStandard + "_RecordNumericInteraction");
-
-    eval ("this.GetEntryMode = " + strStandard + "_GetEntryMode");
-    eval ("this.GetLessonMode = " + strStandard + "_GetLessonMode");
-    eval ("this.GetTakingForCredit = " + strStandard + "_GetTakingForCredit");
-    eval ("this.SetObjectiveScore = " + strStandard + "_SetObjectiveScore");
-    eval ("this.SetObjectiveStatus = " + strStandard + "_SetObjectiveStatus");
-    eval ("this.GetObjectiveScore = " + strStandard + "_GetObjectiveScore");
-    eval ("this.GetObjectiveStatus = " + strStandard + "_GetObjectiveStatus");
-    eval ("this.SetObjectiveDescription = " + strStandard + "_SetObjectiveDescription");
-    eval ("this.GetObjectiveDescription = " + strStandard + "_GetObjectiveDescription");
-    eval ("this.SetFailed = " + strStandard + "_SetFailed");
-    eval ("this.SetPassed = " + strStandard + "_SetPassed");
-    eval ("this.SetCompleted = " + strStandard + "_SetCompleted");
-    eval ("this.ResetStatus = " + strStandard + "_ResetStatus");
-    eval ("this.GetStatus = " + strStandard + "_GetStatus");
-    eval ("this.GetLastError = " + strStandard + "_GetLastError");
-    eval ("this.GetLastErrorDesc = " + strStandard + "_GetLastErrorDesc");
-
-    eval ("this.GetInteractionType = " + strStandard + "_GetInteractionType");
-    eval ("this.GetInteractionTimestamp = " + strStandard + "_GetInteractionTimestamp");
-    eval ("this.GetInteractionCorrectResponses = " + strStandard + "_GetInteractionCorrectResponses");
-    eval ("this.GetInteractionWeighting = " + strStandard + "_GetInteractionWeighting");
-    eval ("this.GetInteractionLearnerResponses = " + strStandard + "_GetInteractionLearnerResponses");
-    eval ("this.GetInteractionResult = " + strStandard + "_GetInteractionResult");
-    eval ("this.GetInteractionLatency = " + strStandard + "_GetInteractionLatency");
-    eval ("this.GetInteractionDescription = " + strStandard + "_GetInteractionDescription");
-
-    eval ("this.CreateDataBucket = " + strStandard + "_CreateDataBucket");
-    eval ("this.GetDataFromBucket = " + strStandard + "_GetDataFromBucket");
-    eval ("this.PutDataInBucket = " + strStandard + "_PutDataInBucket");
-    eval ("this.DetectSSPSupport = " + strStandard + "_DetectSSPSupport");
-    eval ("this.GetBucketInfo = " + strStandard + "_GetBucketInfo");
-
-    eval ("this.GetProgressMeasure = " + strStandard + "_GetProgressMeasure");
-    eval ("this.SetProgressMeasure = " + strStandard + "_SetProgressMeasure");
-
-    eval ("this.SetPointBasedScore = " + strStandard + "_SetPointBasedScore");
-
-    eval ("this.SetNavigationRequest = " + strStandard + "_SetNavigationRequest");
-    eval ("this.GetNavigationRequest = " + strStandard + "_GetNavigationRequest");
-
-	eval ("this.SetObjectiveProgressMeasure = " + strStandard + "_SetObjectiveProgressMeasure");
-	eval ("this.GetObjectiveProgressMeasure = " + strStandard + "_GetObjectiveProgressMeasure");
-
-	eval ("this.CreateValidIdentifier = " + strStandard + "_CreateValidIdentifier");
-
-    if (! (typeof window[strStandard + "_ConcedeControl"] === "undefined")) {
-        eval ("this.ConcedeControl = " + strStandard + "_ConcedeControl");
-    }
-
     this.Standard = strStandard;
+
+    for (i = 0; i < interfaceMethods.length; i += 1) {
+        if (typeof window[strStandard + "_" + interfaceMethods[i]] !== "undefined") {
+            this[interfaceMethods[i]] = window[strStandard + "_" + interfaceMethods[i]];
+        }
+        else {
+            WriteToDebug("In LMSStandardAPI missing interface method=" + interfaceMethods[i]);
+        }
+    }
 }
 //API functions - each function validates inputs, then passes call to Standard function
 
@@ -31594,6 +31651,7 @@ var blnLoaded = false;
 var blnReachedEnd = false;
 var blnStatusWasSet = false;
 var blnLmsPresent = false;
+var blnUnloading = false;
 
 //time tracking variables
 var dtmStart = null;
@@ -32052,6 +32110,8 @@ function TimeOut(){
 function Unload(){
     WriteToDebug("In Unload");
     ClearErrorInfo();
+
+    blnUnloading = true;
 
     return ExecFinish(DEFAULT_EXIT_TYPE);
 }
