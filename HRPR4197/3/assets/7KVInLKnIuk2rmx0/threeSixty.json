@@ -1,0 +1,57 @@
+{
+  "version": "3.122.37553.0",
+  "course_id": "6CNxXXaQlaa_course_id",
+  "title": "Understanding Sources",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5n0Xj7f4TgG",
+      "title": "Understanding Sources",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6pGIDPriT0S",
+      "title": "Understanding Sources",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6DNRNmlzDKh",
+      "title": "Identifying Source Type",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "66QBj5hH7BU",
+      "title": "Scholarly vs. Non-Scholarly Sources",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "61UALEMruvq",
+      "title": "How effective was this tutorial for you?",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6gt0Y3mIONj",
+      "title": "Aspects to consider when reviewing a source",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "5tNDS0iOdg1",
+      "title": "Knowledge Check 1",
+      "scene_index": "1.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 476
+  },
+  "stage": {
+    "width": 720,
+    "height": 405
+  }
+}
